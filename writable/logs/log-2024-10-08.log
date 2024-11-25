@@ -1,0 +1,137 @@
+CRITICAL - 2024-10-08 05:18:48 --> syntax error, unexpected '||' (T_BOOLEAN_OR)
+#0 C:\Users\admin\Downloads\gudang\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/dashboard')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/dashboard')
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-10-08 05:18:48 --> syntax error, unexpected '||' (T_BOOLEAN_OR)
+#0 C:\Users\admin\Downloads\gudang\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/dashboard')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/dashboard')
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-10-08 11:15:45 --> Cannot redeclare App\Controllers\Home::barangRusak()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-10-08 11:15:45 --> Cannot redeclare App\Controllers\Home::barangRusak()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-10-08 11:17:54 --> You must set the database table to be used with your query.
+#0 C:\Users\admin\Downloads\gudang\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\admin\Downloads\gudang\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(691): CodeIgniter\Model->__call('getBarangRusakB...', Array)
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editBarangRusak('1')
+#4 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#8 {main}
+CRITICAL - 2024-10-08 11:17:58 --> Invalid file: tambah_barangrusak.php
+#0 C:\Users\admin\Downloads\gudang\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tambah_barangru...')
+#1 C:\Users\admin\Downloads\gudang\system\Common.php(1089): CodeIgniter\View\View->render('tambah_barangru...', Array, true)
+#2 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(665): view('tambah_barangru...')
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->tambahBarangRusak()
+#4 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#8 {main}
+CRITICAL - 2024-10-08 11:18:04 --> Invalid file: tambah_barangrusak.php
+#0 C:\Users\admin\Downloads\gudang\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tambah_barangru...')
+#1 C:\Users\admin\Downloads\gudang\system\Common.php(1089): CodeIgniter\View\View->render('tambah_barangru...', Array, true)
+#2 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(665): view('tambah_barangru...')
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->tambahBarangRusak()
+#4 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#8 {main}
+CRITICAL - 2024-10-08 11:20:05 --> Invalid file: tambah_barangrusak.php
+#0 C:\Users\admin\Downloads\gudang\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tambah_barangru...')
+#1 C:\Users\admin\Downloads\gudang\system\Common.php(1089): CodeIgniter\View\View->render('tambah_barangru...', Array, true)
+#2 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(665): view('tambah_barangru...')
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->tambahBarangRusak()
+#4 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#8 {main}
+CRITICAL - 2024-10-08 11:20:06 --> Invalid file: tambah_barangrusak.php
+#0 C:\Users\admin\Downloads\gudang\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tambah_barangru...')
+#1 C:\Users\admin\Downloads\gudang\system\Common.php(1089): CodeIgniter\View\View->render('tambah_barangru...', Array, true)
+#2 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(665): view('tambah_barangru...')
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->tambahBarangRusak()
+#4 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#8 {main}
+CRITICAL - 2024-10-08 11:20:06 --> Invalid file: tambah_barangrusak.php
+#0 C:\Users\admin\Downloads\gudang\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('tambah_barangru...')
+#1 C:\Users\admin\Downloads\gudang\system\Common.php(1089): CodeIgniter\View\View->render('tambah_barangru...', Array, true)
+#2 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(665): view('tambah_barangru...')
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->tambahBarangRusak()
+#4 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#8 {main}
+CRITICAL - 2024-10-08 11:20:32 --> You must set the database table to be used with your query.
+#0 C:\Users\admin\Downloads\gudang\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\admin\Downloads\gudang\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(692): CodeIgniter\Model->__call('getBarangRusakB...', Array)
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editBarangRusak('2')
+#4 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#8 {main}
+CRITICAL - 2024-10-08 11:21:43 --> You must set the database table to be used with your query.
+#0 C:\Users\admin\Downloads\gudang\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\admin\Downloads\gudang\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(692): CodeIgniter\Model->__call('getBarangRusakB...', Array)
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editBarangRusak('2')
+#4 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#8 {main}
+CRITICAL - 2024-10-08 11:22:45 --> You must set the database table to be used with your query.
+#0 C:\Users\admin\Downloads\gudang\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\admin\Downloads\gudang\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(692): CodeIgniter\Model->__call('getBarangRusakB...', Array)
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editBarangRusak('2')
+#4 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#8 {main}
+CRITICAL - 2024-10-08 21:25:11 --> Call to a member function edit() on null
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editBarangRusak('2')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-08 21:27:38 --> You must set the database table to be used with your query.
+#0 C:\Users\admin\Downloads\gudang\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\admin\Downloads\gudang\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(691): CodeIgniter\Model->__call('getBarangRusakB...', Array)
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editBarangRusak('2')
+#4 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#8 {main}
+CRITICAL - 2024-10-08 22:08:04 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\Users\admin\Downloads\gudang\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/barangmasu...')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/barangmasu...')
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}

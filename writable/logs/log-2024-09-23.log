@@ -1,0 +1,640 @@
+CRITICAL - 2024-09-23 00:11:45 --> Declaration of App\Models\model_belajar::delete($table, $where) should be compatible with CodeIgniter\BaseModel::delete($id = NULL, bool $purge = false)
+#0 C:\Users\admin\Downloads\gudang\app\Models\model_belajar.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Declaration of ...', 'C:\\Users\\admin\\...', 24, Array)
+#1 C:\Users\admin\Downloads\gudang\system\Autoloader\Autoloader.php(264): include_once('C:\\Users\\admin\\...')
+#2 C:\Users\admin\Downloads\gudang\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\admin\\...')
+#3 C:\Users\admin\Downloads\gudang\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\mode...')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\mode...')
+#5 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(77): spl_autoload_call('App\\Models\\mode...')
+#6 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->barang()
+#7 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#11 {main}
+CRITICAL - 2024-09-23 00:12:07 --> Declaration of App\Models\model_belajar::delete($table, $where) should be compatible with CodeIgniter\BaseModel::delete($id = NULL, bool $purge = false)
+#0 C:\Users\admin\Downloads\gudang\app\Models\model_belajar.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Declaration of ...', 'C:\\Users\\admin\\...', 16, Array)
+#1 C:\Users\admin\Downloads\gudang\system\Autoloader\Autoloader.php(264): include_once('C:\\Users\\admin\\...')
+#2 C:\Users\admin\Downloads\gudang\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\admin\\...')
+#3 C:\Users\admin\Downloads\gudang\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\mode...')
+#4 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\mode...')
+#5 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(77): spl_autoload_call('App\\Models\\mode...')
+#6 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->barang()
+#7 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#8 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#11 {main}
+CRITICAL - 2024-09-23 00:17:22 --> Class 'App\Controllers\M_sim' not found
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_barang('0')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-09-23 02:09:03 --> Class 'App\Controllers\M_sim' not found
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_barang('123')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-09-23 02:09:16 --> Class 'App\Controllers\M_sim' not found
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_barang('123')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-09-23 02:09:16 --> Class 'App\Controllers\M_sim' not found
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_barang('123')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-09-23 02:09:16 --> Class 'App\Controllers\M_sim' not found
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_barang('123')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-09-23 02:09:21 --> Class 'App\Controllers\M_sim' not found
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_barang('123')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-09-23 02:09:21 --> Class 'App\Controllers\M_sim' not found
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_barang('123')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-09-23 02:09:54 --> Call to a member function hapus() on null
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_barang('123')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-09-23 02:09:54 --> Call to a member function hapus() on null
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_barang('123')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+ERROR - 2024-09-23 02:10:03 --> Duplicate entry '123' for key 'PRIMARY'
+ERROR - 2024-09-23 02:13:02 --> Table 'gudang2.gudang2' doesn't exist
+CRITICAL - 2024-09-23 02:13:02 --> Call to a member function getResult() on bool
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(87): App\Models\model_belajar->tampil('gudang2')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->barangmasuk()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-09-23 02:13:15 --> Call to a member function hapus() on null
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_barang('0')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+ERROR - 2024-09-23 02:16:10 --> Table 'gudang2.gudang2' doesn't exist
+CRITICAL - 2024-09-23 02:16:10 --> Call to a member function getResult() on bool
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(87): App\Models\model_belajar->tampil('gudang2')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->barangmasuk()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-09-23 02:17:08 --> Call to a member function hapus() on null
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_barang('0')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-09-23 02:20:19 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\admin\Downloads\gudang\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/Barang')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/Barang')
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+ERROR - 2024-09-23 02:20:27 --> Duplicate entry '0' for key 'PRIMARY'
+CRITICAL - 2024-09-23 02:26:28 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-23 02:26:28 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-23 02:27:05 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-09-23 02:27:06 --> Namespace declaration statement has to be the very first statement or after any declare call in the script
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2024-09-23 02:29:32 --> Table 'gudang2.gudang2' doesn't exist
+CRITICAL - 2024-09-23 02:29:32 --> Call to a member function getResult() on bool
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(103): App\Models\model_belajar->tampil('gudang2')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->barangmasuk()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+ERROR - 2024-09-23 02:31:30 --> Table 'gudang2.gudang2' doesn't exist
+ERROR - 2024-09-23 02:31:30 --> Failed to retrieve data from table: gudang2
+CRITICAL - 2024-09-23 02:31:30 --> Invalid argument supplied for foreach()
+#0 C:\Users\admin\Downloads\gudang\app\Views\barangmasuk.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\admin\\...', 30, Array)
+#1 C:\Users\admin\Downloads\gudang\system\View\View.php(210): include('C:\\Users\\admin\\...')
+#2 C:\Users\admin\Downloads\gudang\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\admin\Downloads\gudang\system\Common.php(1089): CodeIgniter\View\View->render('barangmasuk.php', Array, true)
+#4 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(106): view('barangmasuk.php', Array)
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->barangmasuk()
+#6 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#10 {main}
+ERROR - 2024-09-23 02:31:53 --> Table 'gudang2.gudang2' doesn't exist
+ERROR - 2024-09-23 02:31:53 --> Failed to retrieve data from table: gudang2
+CRITICAL - 2024-09-23 02:31:53 --> Invalid argument supplied for foreach()
+#0 C:\Users\admin\Downloads\gudang\app\Views\barangmasuk.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\admin\\...', 30, Array)
+#1 C:\Users\admin\Downloads\gudang\system\View\View.php(210): include('C:\\Users\\admin\\...')
+#2 C:\Users\admin\Downloads\gudang\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\admin\Downloads\gudang\system\Common.php(1089): CodeIgniter\View\View->render('barangmasuk.php', Array, true)
+#4 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(106): view('barangmasuk.php', Array)
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->barangmasuk()
+#6 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#10 {main}
+ERROR - 2024-09-23 02:31:54 --> Table 'gudang2.gudang2' doesn't exist
+ERROR - 2024-09-23 02:31:54 --> Failed to retrieve data from table: gudang2
+CRITICAL - 2024-09-23 02:31:54 --> Invalid argument supplied for foreach()
+#0 C:\Users\admin\Downloads\gudang\app\Views\barangmasuk.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\admin\\...', 30, Array)
+#1 C:\Users\admin\Downloads\gudang\system\View\View.php(210): include('C:\\Users\\admin\\...')
+#2 C:\Users\admin\Downloads\gudang\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\admin\Downloads\gudang\system\Common.php(1089): CodeIgniter\View\View->render('barangmasuk.php', Array, true)
+#4 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(106): view('barangmasuk.php', Array)
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->barangmasuk()
+#6 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#10 {main}
+ERROR - 2024-09-23 02:32:04 --> Table 'gudang2.gudang2' doesn't exist
+ERROR - 2024-09-23 02:32:04 --> Failed to retrieve data from table: gudang2
+CRITICAL - 2024-09-23 02:32:04 --> Invalid argument supplied for foreach()
+#0 C:\Users\admin\Downloads\gudang\app\Views\barangmasuk.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\admin\\...', 30, Array)
+#1 C:\Users\admin\Downloads\gudang\system\View\View.php(210): include('C:\\Users\\admin\\...')
+#2 C:\Users\admin\Downloads\gudang\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\admin\Downloads\gudang\system\Common.php(1089): CodeIgniter\View\View->render('barangmasuk.php', Array, true)
+#4 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(106): view('barangmasuk.php', Array)
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->barangmasuk()
+#6 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#10 {main}
+ERROR - 2024-09-23 02:32:05 --> Table 'gudang2.gudang2' doesn't exist
+ERROR - 2024-09-23 02:32:05 --> Failed to retrieve data from table: gudang2
+CRITICAL - 2024-09-23 02:32:05 --> Invalid argument supplied for foreach()
+#0 C:\Users\admin\Downloads\gudang\app\Views\barangmasuk.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\admin\\...', 30, Array)
+#1 C:\Users\admin\Downloads\gudang\system\View\View.php(210): include('C:\\Users\\admin\\...')
+#2 C:\Users\admin\Downloads\gudang\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\admin\Downloads\gudang\system\Common.php(1089): CodeIgniter\View\View->render('barangmasuk.php', Array, true)
+#4 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(106): view('barangmasuk.php', Array)
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->barangmasuk()
+#6 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#10 {main}
+ERROR - 2024-09-23 02:32:25 --> Table 'gudang2.gudang2' doesn't exist
+CRITICAL - 2024-09-23 02:32:25 --> Call to a member function getResult() on bool
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(103): App\Models\model_belajar->tampil('gudang2')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->barangmasuk()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+ERROR - 2024-09-23 02:32:25 --> Table 'gudang2.gudang2' doesn't exist
+CRITICAL - 2024-09-23 02:32:25 --> Call to a member function getResult() on bool
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(103): App\Models\model_belajar->tampil('gudang2')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->barangmasuk()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+ERROR - 2024-09-23 02:32:49 --> Table 'gudang2.gudang2' doesn't exist
+CRITICAL - 2024-09-23 02:32:49 --> Call to a member function getResult() on bool
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(87): App\Models\model_belajar->tampil('gudang2')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->barangmasuk()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+ERROR - 2024-09-23 02:32:49 --> Table 'gudang2.gudang2' doesn't exist
+CRITICAL - 2024-09-23 02:32:49 --> Call to a member function getResult() on bool
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(87): App\Models\model_belajar->tampil('gudang2')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->barangmasuk()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+ERROR - 2024-09-23 02:32:50 --> Table 'gudang2.gudang2' doesn't exist
+CRITICAL - 2024-09-23 02:32:50 --> Call to a member function getResult() on bool
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(87): App\Models\model_belajar->tampil('gudang2')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->barangmasuk()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+ERROR - 2024-09-23 02:32:50 --> Table 'gudang2.gudang2' doesn't exist
+CRITICAL - 2024-09-23 02:32:50 --> Call to a member function getResult() on bool
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(87): App\Models\model_belajar->tampil('gudang2')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->barangmasuk()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+ERROR - 2024-09-23 02:33:59 --> Table 'gudang2.gudang2' doesn't exist
+CRITICAL - 2024-09-23 02:33:59 --> Call to a member function getResult() on bool
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(87): App\Models\model_belajar->tampil('gudang2')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->barangmasuk()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+ERROR - 2024-09-23 02:33:59 --> Table 'gudang2.gudang2' doesn't exist
+CRITICAL - 2024-09-23 02:33:59 --> Call to a member function getResult() on bool
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(87): App\Models\model_belajar->tampil('gudang2')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->barangmasuk()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+ERROR - 2024-09-23 02:33:59 --> Table 'gudang2.gudang2' doesn't exist
+CRITICAL - 2024-09-23 02:33:59 --> Call to a member function getResult() on bool
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(87): App\Models\model_belajar->tampil('gudang2')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->barangmasuk()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+ERROR - 2024-09-23 02:33:59 --> Table 'gudang2.gudang2' doesn't exist
+CRITICAL - 2024-09-23 02:33:59 --> Call to a member function getResult() on bool
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(87): App\Models\model_belajar->tampil('gudang2')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->barangmasuk()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+ERROR - 2024-09-23 02:34:43 --> Table 'gudang2.gudang2' doesn't exist
+CRITICAL - 2024-09-23 02:34:43 --> Call to a member function getResult() on bool
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(87): App\Models\model_belajar->tampil('gudang2')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->barangmasuk()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+ERROR - 2024-09-23 02:34:43 --> Table 'gudang2.gudang2' doesn't exist
+CRITICAL - 2024-09-23 02:34:43 --> Call to a member function getResult() on bool
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(87): App\Models\model_belajar->tampil('gudang2')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->barangmasuk()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+ERROR - 2024-09-23 02:34:43 --> Table 'gudang2.gudang2' doesn't exist
+CRITICAL - 2024-09-23 02:34:43 --> Call to a member function getResult() on bool
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(87): App\Models\model_belajar->tampil('gudang2')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->barangmasuk()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+ERROR - 2024-09-23 02:34:53 --> Duplicate entry '123' for key 'PRIMARY'
+ERROR - 2024-09-23 02:34:55 --> Duplicate entry '3213' for key 'PRIMARY'
+ERROR - 2024-09-23 02:35:01 --> Duplicate entry '123' for key 'PRIMARY'
+ERROR - 2024-09-23 02:35:16 --> Duplicate entry '123' for key 'PRIMARY'
+ERROR - 2024-09-23 02:35:25 --> Duplicate entry '123' for key 'PRIMARY'
+CRITICAL - 2024-09-23 02:40:19 --> syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\admin\Downloads\gudang\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\admin\\...')
+#1 C:\Users\admin\Downloads\gudang\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\mode...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\mode...')
+#3 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(77): spl_autoload_call('App\\Models\\mode...')
+#4 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->barang()
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#9 {main}
+ERROR - 2024-09-23 02:42:54 --> Table 'gudang2.gudang2' doesn't exist
+CRITICAL - 2024-09-23 02:42:54 --> Call to a member function getResult() on bool
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(87): App\Models\model_belajar->tampil('gudang2')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->barangmasuk()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+ERROR - 2024-09-23 19:44:46 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-09-23 19:44:46 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\Users\admin\Downloads\gudang\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\admin\Downloads\gudang\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\admin\Downloads\gudang\app\Models\model_belajar.php(11): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(78): App\Models\model_belajar->tampil('barang')
+#4 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->barang()
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#9 {main}
+ERROR - 2024-09-23 19:44:52 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-09-23 19:44:52 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\Users\admin\Downloads\gudang\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\admin\Downloads\gudang\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\admin\Downloads\gudang\app\Models\model_belajar.php(11): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(63): App\Models\model_belajar->tampil('barang_keluar')
+#4 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->barangkeluar()
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#9 {main}
+ERROR - 2024-09-23 19:49:01 --> Table 'gudang2.gudang2' doesn't exist
+CRITICAL - 2024-09-23 19:49:01 --> Call to a member function getResult() on bool
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(87): App\Models\model_belajar->tampil('gudang2')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->barangmasuk()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+ERROR - 2024-09-23 19:49:17 --> Table 'gudang2.gudang2' doesn't exist
+CRITICAL - 2024-09-23 19:49:17 --> Call to a member function getResult() on bool
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(87): App\Models\model_belajar->tampil('gudang2')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->barangmasuk()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+ERROR - 2024-09-23 19:58:27 --> Table 'gudang2.gudang2' doesn't exist
+CRITICAL - 2024-09-23 19:58:27 --> Call to a member function getResult() on bool
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(87): App\Models\Model_belajar->tampil('gudang2')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->barangmasuk()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-09-23 20:56:20 --> Argument 2 passed to view() must be of the type array, null given, called in C:\Users\admin\Downloads\gudang\app\Controllers\Home.php on line 109
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(109): view('user.php', NULL)
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-09-23 20:56:32 --> Argument 2 passed to view() must be of the type array, null given, called in C:\Users\admin\Downloads\gudang\app\Controllers\Home.php on line 109
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(109): view('user.php', NULL)
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-09-23 20:56:33 --> Argument 2 passed to view() must be of the type array, null given, called in C:\Users\admin\Downloads\gudang\app\Controllers\Home.php on line 109
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(109): view('user.php', NULL)
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-09-23 20:58:11 --> Argument 2 passed to view() must be of the type array, null given, called in C:\Users\admin\Downloads\gudang\app\Controllers\Home.php on line 109
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(109): view('user.php', NULL)
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-09-23 20:58:11 --> Argument 2 passed to view() must be of the type array, null given, called in C:\Users\admin\Downloads\gudang\app\Controllers\Home.php on line 109
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(109): view('user.php', NULL)
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-09-23 20:58:12 --> Argument 2 passed to view() must be of the type array, null given, called in C:\Users\admin\Downloads\gudang\app\Controllers\Home.php on line 109
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(109): view('user.php', NULL)
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-09-23 20:58:39 --> Argument 2 passed to view() must be of the type array, null given, called in C:\Users\admin\Downloads\gudang\app\Controllers\Home.php on line 109
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(109): view('user.php', NULL)
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-09-23 20:58:39 --> Argument 2 passed to view() must be of the type array, null given, called in C:\Users\admin\Downloads\gudang\app\Controllers\Home.php on line 109
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(109): view('user.php', NULL)
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-09-23 20:58:44 --> Argument 2 passed to view() must be of the type array, null given, called in C:\Users\admin\Downloads\gudang\app\Controllers\Home.php on line 109
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(109): view('user.php', NULL)
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-09-23 20:58:45 --> Argument 2 passed to view() must be of the type array, null given, called in C:\Users\admin\Downloads\gudang\app\Controllers\Home.php on line 109
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(109): view('user.php', NULL)
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-09-23 21:01:40 --> Argument 2 passed to view() must be of the type array, null given, called in C:\Users\admin\Downloads\gudang\app\Controllers\Home.php on line 109
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(109): view('user.php', NULL)
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-09-23 21:01:48 --> Argument 2 passed to view() must be of the type array, null given, called in C:\Users\admin\Downloads\gudang\app\Controllers\Home.php on line 109
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(109): view('user.php', NULL)
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-09-23 21:02:04 --> Argument 2 passed to view() must be of the type array, null given, called in C:\Users\admin\Downloads\gudang\app\Controllers\Home.php on line 109
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(109): view('user.php', NULL)
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-09-23 21:02:05 --> Argument 2 passed to view() must be of the type array, null given, called in C:\Users\admin\Downloads\gudang\app\Controllers\Home.php on line 109
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(109): view('user.php', NULL)
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-09-23 21:05:59 --> Argument 2 passed to view() must be of the type array, null given, called in C:\Users\admin\Downloads\gudang\app\Controllers\Home.php on line 109
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(109): view('user.php', NULL)
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-09-23 21:06:02 --> Argument 2 passed to view() must be of the type array, null given, called in C:\Users\admin\Downloads\gudang\app\Controllers\Home.php on line 109
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(109): view('user.php', NULL)
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-09-23 21:06:14 --> Argument 2 passed to view() must be of the type array, null given, called in C:\Users\admin\Downloads\gudang\app\Controllers\Home.php on line 109
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(109): view('user.php', NULL)
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-09-23 21:06:14 --> Argument 2 passed to view() must be of the type array, null given, called in C:\Users\admin\Downloads\gudang\app\Controllers\Home.php on line 109
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(109): view('user.php', NULL)
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-09-23 21:06:15 --> Argument 2 passed to view() must be of the type array, null given, called in C:\Users\admin\Downloads\gudang\app\Controllers\Home.php on line 109
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(109): view('user.php', NULL)
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->user()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-09-23 21:18:56 --> Too few arguments to function App\Controllers\Home::hapus_barangggg(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_barangggg()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-09-23 21:20:35 --> Too few arguments to function App\Controllers\Home::hapus_barangggg(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_barangggg()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-09-23 21:20:35 --> Too few arguments to function App\Controllers\Home::hapus_barangggg(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_barangggg()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-09-23 23:38:14 --> syntax error, unexpected '}', expecting '('
+#0 C:\Users\admin\Downloads\gudang\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/userr')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/userr')
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-09-23 23:38:15 --> syntax error, unexpected '}', expecting '('
+#0 C:\Users\admin\Downloads\gudang\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/userr')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/userr')
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-09-23 23:38:38 --> You must set the database table to be used with your query.
+#0 C:\Users\admin\Downloads\gudang\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\admin\Downloads\gudang\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(158): CodeIgniter\Model->__call('getWhere', Array)
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->edit_barang('1')
+#4 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#8 {main}
+CRITICAL - 2024-09-23 23:42:23 --> You must set the database table to be used with your query.
+#0 C:\Users\admin\Downloads\gudang\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\admin\Downloads\gudang\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(158): CodeIgniter\Model->__call('getWhere', Array)
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->edit_barang('1')
+#4 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#8 {main}
+CRITICAL - 2024-09-23 23:42:28 --> You must set the database table to be used with your query.
+#0 C:\Users\admin\Downloads\gudang\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\admin\Downloads\gudang\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(158): CodeIgniter\Model->__call('getWhere', Array)
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->edit_barang('1')
+#4 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#8 {main}

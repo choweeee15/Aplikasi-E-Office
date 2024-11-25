@@ -1,0 +1,532 @@
+ERROR - 2024-10-15 00:18:20 --> Duplicate entry 'chloe@gmail' for key 'username'
+ERROR - 2024-10-15 00:18:20 --> Duplicate entry '1' for key 'id_user'
+CRITICAL - 2024-10-15 09:30:16 --> Too few arguments to function App\Controllers\Home::hapusKaryawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapusKaryawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 09:36:40 --> syntax error, unexpected 'else' (T_ELSE), expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\admin\Downloads\gudang\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/editKaryaw...')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/editKaryaw...')
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-10-15 09:36:51 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 09:38:55 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 09:40:39 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 09:44:22 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 09:44:22 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 09:44:23 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 09:46:19 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 09:46:19 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 09:46:19 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 09:47:50 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 09:47:51 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+ERROR - 2024-10-15 09:48:20 --> Duplicate entry 'chloe@gmail' for key 'username'
+ERROR - 2024-10-15 09:48:20 --> Duplicate entry '1' for key 'id_user'
+CRITICAL - 2024-10-15 09:49:19 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 09:50:35 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 09:50:54 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 09:50:54 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 09:55:02 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 09:55:02 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 09:55:02 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 09:56:39 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 09:56:39 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 09:56:40 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 09:59:34 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 10:00:36 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 10:01:13 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 10:01:54 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 10:01:54 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 10:01:54 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 10:02:13 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 10:02:14 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 10:02:14 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 10:02:14 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 10:02:28 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 10:02:28 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 10:02:28 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 10:02:45 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 10:02:45 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 10:06:02 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 10:06:03 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 10:06:03 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 10:06:03 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+ERROR - 2024-10-15 20:57:34 --> Duplicate entry 'chloe@gmail' for key 'username'
+ERROR - 2024-10-15 20:57:34 --> Duplicate entry '1' for key 'id_user'
+CRITICAL - 2024-10-15 20:58:07 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 20:58:46 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 20:59:18 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 21:03:11 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 21:05:22 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 21:05:25 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 21:31:03 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 21:35:34 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 21:36:55 --> Too few arguments to function App\Controllers\Home::hapus_karyawan(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_karyawan()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-15 22:16:40 --> Invalid argument supplied for foreach()
+#0 C:\Users\admin\Downloads\gudang\app\Views\lap_bm.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\admin\\...', 24, Array)
+#1 C:\Users\admin\Downloads\gudang\system\View\View.php(210): include('C:\\Users\\admin\\...')
+#2 C:\Users\admin\Downloads\gudang\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\admin\Downloads\gudang\system\Common.php(1089): CodeIgniter\View\View->render('lap_bm.php', Array, true)
+#4 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(134): view('lap_bm.php')
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->lap_bm()
+#6 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#10 {main}
+CRITICAL - 2024-10-15 22:18:48 --> Invalid argument supplied for foreach()
+#0 C:\Users\admin\Downloads\gudang\app\Views\lap_bm.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\admin\\...', 24, Array)
+#1 C:\Users\admin\Downloads\gudang\system\View\View.php(210): include('C:\\Users\\admin\\...')
+#2 C:\Users\admin\Downloads\gudang\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\admin\Downloads\gudang\system\Common.php(1089): CodeIgniter\View\View->render('lap_bm.php', Array, true)
+#4 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(134): view('lap_bm.php')
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->lap_bm()
+#6 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#10 {main}
+CRITICAL - 2024-10-15 22:18:49 --> Invalid argument supplied for foreach()
+#0 C:\Users\admin\Downloads\gudang\app\Views\lap_bm.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\admin\\...', 24, Array)
+#1 C:\Users\admin\Downloads\gudang\system\View\View.php(210): include('C:\\Users\\admin\\...')
+#2 C:\Users\admin\Downloads\gudang\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\admin\Downloads\gudang\system\Common.php(1089): CodeIgniter\View\View->render('lap_bm.php', Array, true)
+#4 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(134): view('lap_bm.php')
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->lap_bm()
+#6 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#10 {main}
+CRITICAL - 2024-10-15 22:18:49 --> Invalid argument supplied for foreach()
+#0 C:\Users\admin\Downloads\gudang\app\Views\lap_bm.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\admin\\...', 24, Array)
+#1 C:\Users\admin\Downloads\gudang\system\View\View.php(210): include('C:\\Users\\admin\\...')
+#2 C:\Users\admin\Downloads\gudang\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\admin\Downloads\gudang\system\Common.php(1089): CodeIgniter\View\View->render('lap_bm.php', Array, true)
+#4 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(134): view('lap_bm.php')
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->lap_bm()
+#6 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#10 {main}
+CRITICAL - 2024-10-15 22:18:57 --> Invalid argument supplied for foreach()
+#0 C:\Users\admin\Downloads\gudang\app\Views\lap_bm.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\admin\\...', 24, Array)
+#1 C:\Users\admin\Downloads\gudang\system\View\View.php(210): include('C:\\Users\\admin\\...')
+#2 C:\Users\admin\Downloads\gudang\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\admin\Downloads\gudang\system\Common.php(1089): CodeIgniter\View\View->render('lap_bm.php', Array, true)
+#4 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(134): view('lap_bm.php')
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->lap_bm()
+#6 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#10 {main}
+CRITICAL - 2024-10-15 22:19:54 --> Invalid argument supplied for foreach()
+#0 C:\Users\admin\Downloads\gudang\app\Views\lap_bm.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\admin\\...', 26, Array)
+#1 C:\Users\admin\Downloads\gudang\system\View\View.php(210): include('C:\\Users\\admin\\...')
+#2 C:\Users\admin\Downloads\gudang\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\admin\Downloads\gudang\system\Common.php(1089): CodeIgniter\View\View->render('lap_bm.php', Array, true)
+#4 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(134): view('lap_bm.php')
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->lap_bm()
+#6 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#10 {main}
+CRITICAL - 2024-10-15 22:19:54 --> Invalid argument supplied for foreach()
+#0 C:\Users\admin\Downloads\gudang\app\Views\lap_bm.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\admin\\...', 26, Array)
+#1 C:\Users\admin\Downloads\gudang\system\View\View.php(210): include('C:\\Users\\admin\\...')
+#2 C:\Users\admin\Downloads\gudang\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\admin\Downloads\gudang\system\Common.php(1089): CodeIgniter\View\View->render('lap_bm.php', Array, true)
+#4 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(134): view('lap_bm.php')
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->lap_bm()
+#6 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#10 {main}
+CRITICAL - 2024-10-15 22:25:43 --> Invalid argument supplied for foreach()
+#0 C:\Users\admin\Downloads\gudang\app\Views\lap_bm.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\admin\\...', 33, Array)
+#1 C:\Users\admin\Downloads\gudang\system\View\View.php(210): include('C:\\Users\\admin\\...')
+#2 C:\Users\admin\Downloads\gudang\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\admin\Downloads\gudang\system\Common.php(1089): CodeIgniter\View\View->render('lap_bm.php', Array, true)
+#4 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(134): view('lap_bm.php')
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->lap_bm()
+#6 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#10 {main}
+CRITICAL - 2024-10-15 22:27:48 --> Invalid argument supplied for foreach()
+#0 C:\Users\admin\Downloads\gudang\app\Views\lap_bm.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\admin\\...', 33, Array)
+#1 C:\Users\admin\Downloads\gudang\system\View\View.php(210): include('C:\\Users\\admin\\...')
+#2 C:\Users\admin\Downloads\gudang\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\admin\Downloads\gudang\system\Common.php(1089): CodeIgniter\View\View->render('lap_bm.php', Array, true)
+#4 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(134): view('lap_bm.php')
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->lap_bm()
+#6 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#10 {main}
+CRITICAL - 2024-10-15 23:28:29 --> Invalid argument supplied for foreach()
+#0 C:\Users\admin\Downloads\gudang\app\Views\lap_bm.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\admin\\...', 33, Array)
+#1 C:\Users\admin\Downloads\gudang\system\View\View.php(210): include('C:\\Users\\admin\\...')
+#2 C:\Users\admin\Downloads\gudang\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\admin\Downloads\gudang\system\Common.php(1089): CodeIgniter\View\View->render('lap_bm.php', Array, true)
+#4 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(134): view('lap_bm.php')
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->lap_bm()
+#6 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#10 {main}
+CRITICAL - 2024-10-15 23:28:47 --> Invalid argument supplied for foreach()
+#0 C:\Users\admin\Downloads\gudang\app\Views\lap_bm.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\admin\\...', 33, Array)
+#1 C:\Users\admin\Downloads\gudang\system\View\View.php(210): include('C:\\Users\\admin\\...')
+#2 C:\Users\admin\Downloads\gudang\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\admin\Downloads\gudang\system\Common.php(1089): CodeIgniter\View\View->render('lap_bm.php', Array, true)
+#4 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(134): view('lap_bm.php')
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->lapbm()
+#6 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#10 {main}
+CRITICAL - 2024-10-15 23:45:55 --> Invalid argument supplied for foreach()
+#0 C:\Users\admin\Downloads\gudang\app\Views\lap_bm.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\admin\\...', 33, Array)
+#1 C:\Users\admin\Downloads\gudang\system\View\View.php(210): include('C:\\Users\\admin\\...')
+#2 C:\Users\admin\Downloads\gudang\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\admin\Downloads\gudang\system\Common.php(1089): CodeIgniter\View\View->render('lap_bm.php', Array, true)
+#4 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(134): view('lap_bm.php')
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->lapbm()
+#6 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#10 {main}
+CRITICAL - 2024-10-15 23:50:07 --> Invalid argument supplied for foreach()
+#0 C:\Users\admin\Downloads\gudang\app\Views\lap_bm.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\admin\\...', 36, Array)
+#1 C:\Users\admin\Downloads\gudang\system\View\View.php(210): include('C:\\Users\\admin\\...')
+#2 C:\Users\admin\Downloads\gudang\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\admin\Downloads\gudang\system\Common.php(1089): CodeIgniter\View\View->render('lap_bm.php', Array, true)
+#4 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(134): view('lap_bm.php')
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->lapbm()
+#6 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#10 {main}
+CRITICAL - 2024-10-15 23:50:10 --> Invalid argument supplied for foreach()
+#0 C:\Users\admin\Downloads\gudang\app\Views\lap_bm.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\admin\\...', 36, Array)
+#1 C:\Users\admin\Downloads\gudang\system\View\View.php(210): include('C:\\Users\\admin\\...')
+#2 C:\Users\admin\Downloads\gudang\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\admin\Downloads\gudang\system\Common.php(1089): CodeIgniter\View\View->render('lap_bm.php', Array, true)
+#4 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(134): view('lap_bm.php')
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->lapbm()
+#6 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#10 {main}

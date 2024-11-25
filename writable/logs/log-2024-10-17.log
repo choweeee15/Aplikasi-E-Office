@@ -1,0 +1,82 @@
+CRITICAL - 2024-10-17 00:04:53 --> You must set the database table to be used with your query.
+#0 C:\Users\admin\Downloads\gudang\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\admin\Downloads\gudang\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(150): CodeIgniter\Model->__call('filter1', Array)
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->lapbk()
+#4 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#8 {main}
+CRITICAL - 2024-10-17 09:48:11 --> Too few arguments to function App\Models\Model_belajar::filter(), 5 passed in C:\Users\admin\Downloads\gudang\app\Controllers\Home.php on line 158 and exactly 7 expected
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(158): App\Models\Model_belajar->filter('barang', 'tanggal >=', 'tanggal <=', '2024-10-16', '2024-10-24')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->lapb()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-10-17 09:48:14 --> Too few arguments to function App\Models\Model_belajar::filter(), 5 passed in C:\Users\admin\Downloads\gudang\app\Controllers\Home.php on line 158 and exactly 7 expected
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(158): App\Models\Model_belajar->filter('barang', 'tanggal >=', 'tanggal <=', '2024-10-16', '2024-10-24')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->lapb()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+ERROR - 2024-10-17 09:55:44 --> Not unique table/alias: 'barang'
+CRITICAL - 2024-10-17 09:55:44 --> Call to a member function getResult() on bool
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(158): App\Models\Model_belajar->filter('barang', 'barang', 'id_barang', 'id_barang', 'id_barang', '', '')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->lapb()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+ERROR - 2024-10-17 09:56:14 --> Not unique table/alias: 'barang'
+CRITICAL - 2024-10-17 09:56:14 --> Call to a member function getResult() on bool
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(158): App\Models\Model_belajar->filter('barang', 'barang', 'id_barang', 'id_barang', 'id_barang', '', '')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->lapb()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+ERROR - 2024-10-17 09:57:21 --> Not unique table/alias: 'barang'
+CRITICAL - 2024-10-17 09:57:21 --> Call to a member function getResult() on bool
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(158): App\Models\Model_belajar->filter('barang', 'barang', 'id_barang = id_...', 'id_barang', 'id_barang', '2024-10-17', '2024-10-18')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->lapb()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+ERROR - 2024-10-17 09:58:25 --> Not unique table/alias: 'barang'
+CRITICAL - 2024-10-17 09:58:25 --> Call to a member function getResult() on bool
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(158): App\Models\Model_belajar->filter('barang', 'barang', 'id_barang = id_...', 'id_barang', 'id_barang', '', '')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->lapb()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+ERROR - 2024-10-17 10:56:48 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `tanggal` < IS NULL' at line 4
+CRITICAL - 2024-10-17 10:56:48 --> Call to a member function getResult() on bool
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(150): App\Models\Model_belajar->filter('barang_keluar', 'barang', 'barang_keluar.i...', 'tanggal >=', 'tanggal <=', NULL, NULL)
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->lapbk()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+ERROR - 2024-10-17 10:57:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `tanggal` < IS NULL' at line 4
+CRITICAL - 2024-10-17 10:57:36 --> Call to a member function getResult() on bool
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(150): App\Models\Model_belajar->filter('barang_keluar', 'barang', 'barang_keluar.i...', 'tanggal >=', 'tanggal <=', NULL, NULL)
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->lapbk()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}

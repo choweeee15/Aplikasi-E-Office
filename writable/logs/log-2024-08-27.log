@@ -1,0 +1,18 @@
+CRITICAL - 2024-08-27 06:31:35 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\admin\Downloads\CodeIgniter4-4.1.9\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\admin\Downloads\CodeIgniter4-4.1.9\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\admin\Downloads\CodeIgniter4-4.1.9\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\admin\Downloads\CodeIgniter4-4.1.9\spark(45): require('C:\\Users\\admin\\...')
+#4 {main}
+CRITICAL - 2024-08-27 06:34:31 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\admin\Downloads\CodeIgniter4-4.1.9\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\admin\Downloads\CodeIgniter4-4.1.9\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\admin\Downloads\CodeIgniter4-4.1.9\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\admin\Downloads\CodeIgniter4-4.1.9\spark(45): require('C:\\Users\\admin\\...')
+#4 {main}
+CRITICAL - 2024-08-27 06:35:00 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\admin\Downloads\CodeIgniter4-4.1.9\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\admin\Downloads\CodeIgniter4-4.1.9\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\admin\Downloads\CodeIgniter4-4.1.9\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\admin\Downloads\CodeIgniter4-4.1.9\spark(45): require('C:\\Users\\admin\\...')
+#4 {main}

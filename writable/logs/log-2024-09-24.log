@@ -1,0 +1,46 @@
+CRITICAL - 2024-09-24 00:10:56 --> syntax error, unexpected '}', expecting ';'
+#0 C:\Users\admin\Downloads\gudang\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/barangkelu...')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/barangkelu...')
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-09-24 00:18:19 --> You must set the database table to be used with your query.
+#0 C:\Users\admin\Downloads\gudang\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\admin\Downloads\gudang\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(158): CodeIgniter\Model->__call('getWhere', Array)
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->edit_barang('4')
+#4 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#8 {main}
+CRITICAL - 2024-09-24 01:26:32 --> Too few arguments to function App\Controllers\Home::simpanbarang(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->simpanbarang()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-09-24 01:30:14 --> Too few arguments to function App\Controllers\Home::simpanbarang(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->simpanbarang()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-09-24 23:27:50 --> Too few arguments to function App\Controllers\Home::simpanbarang(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->simpanbarang()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-09-24 23:30:28 --> Too few arguments to function App\Controllers\Home::simpanbarang(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->simpanbarang()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}

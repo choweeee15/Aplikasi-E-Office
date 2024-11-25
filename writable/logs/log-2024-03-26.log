@@ -1,0 +1,45 @@
+ERROR - 2024-03-26 11:02:21 --> Table 'ekskul.eskerim' doesn't exist
+CRITICAL - 2024-03-26 11:02:21 --> Call to a member function getresult() on bool
+#0 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\app\Controllers\Home.php(11): App\Models\Mymodel->tampil('eskerim')
+#1 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->baller3()
+#2 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\user\\D...')
+#6 {main}
+ERROR - 2024-03-26 11:05:25 --> Table 'ekskul.eskerim' doesn't exist
+CRITICAL - 2024-03-26 11:05:25 --> Call to a member function getresult() on bool
+#0 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\app\Controllers\Home.php(11): App\Models\Mymodel->tampil('eskerim')
+#1 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->baller3()
+#2 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\user\\D...')
+#6 {main}
+ERROR - 2024-03-26 11:08:37 --> Table 'ekskul.eskerim' doesn't exist
+CRITICAL - 2024-03-26 11:08:37 --> Call to a member function getresult() on bool
+#0 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\app\Controllers\Home.php(11): App\Models\Mymodel->tampil('eskerim')
+#1 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->baller3()
+#2 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\user\\D...')
+#6 {main}
+ERROR - 2024-03-26 11:08:38 --> Table 'ekskul.eskerim' doesn't exist
+CRITICAL - 2024-03-26 11:08:38 --> Call to a member function getresult() on bool
+#0 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\app\Controllers\Home.php(11): App\Models\Mymodel->tampil('eskerim')
+#1 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->baller3()
+#2 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\user\\D...')
+#6 {main}
+ERROR - 2024-03-26 11:42:55 --> Table 'ekskul.eskerim' doesn't exist
+CRITICAL - 2024-03-26 11:42:55 --> Call to a member function getresult() on bool
+#0 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\app\Controllers\Home.php(38): App\Models\Mymodel->tampil('eskerim')
+#1 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->eskerim()
+#2 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\user\\D...')
+#6 {main}

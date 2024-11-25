@@ -1,0 +1,341 @@
+ERROR - 2024-11-10 06:51:42 --> Unknown column 'tanggal_upload' in 'order clause'
+CRITICAL - 2024-11-10 06:51:42 --> Call to a member function getResult() on bool
+#0 C:\Users\admin\Music\eoffice2\app\Controllers\Home.php(1268): App\Models\Model_belajar->tampil('dokumen_keuanga...', 'tanggal_upload')
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->dokumenKeuangan()
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-11-10 06:59:15 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\Users\admin\Music\eoffice2\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/surat')
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/surat')
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-11-10 06:59:39 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\Users\admin\Music\eoffice2\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/surat')
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/surat')
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-11-10 06:59:40 --> syntax error, unexpected 'public' (T_PUBLIC)
+#0 C:\Users\admin\Music\eoffice2\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/surat')
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/surat')
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-11-10 06:59:49 --> Surat with ID: assets not found.
+#0 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->editsurat('assets', 'img', 'messages-1.jpg')
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-11-10 06:59:49 --> Surat with ID: assets not found.
+#0 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->editsurat('assets', 'img', 'messages-2.jpg')
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-11-10 06:59:49 --> Surat with ID: assets not found.
+#0 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->editsurat('assets', 'img', 'messages-3.jpg')
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-11-10 07:15:18 --> Surat with ID: assets not found.
+#0 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->editsurat('assets', 'img', 'messages-1.jpg')
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-11-10 07:15:18 --> Surat with ID: assets not found.
+#0 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->editsurat('assets', 'img', 'messages-2.jpg')
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-11-10 07:15:18 --> Surat with ID: assets not found.
+#0 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->editsurat('assets', 'img', 'messages-3.jpg')
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-11-10 07:30:19 --> Surat with ID: assets not found.
+#0 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->editsurat('assets', 'img', 'messages-1.jpg')
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-11-10 07:30:19 --> Surat with ID: assets not found.
+#0 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->editsurat('assets', 'img', 'messages-2.jpg')
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-11-10 07:30:19 --> Surat with ID: assets not found.
+#0 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->editsurat('assets', 'img', 'messages-3.jpg')
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-11-10 07:30:22 --> Surat with ID: suratmasuk not found.
+#0 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->editsurat('suratmasuk')
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-11-10 07:30:24 --> Surat with ID: assets not found.
+#0 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->editsurat('assets', 'img', 'messages-1.jpg')
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-11-10 07:30:24 --> Surat with ID: assets not found.
+#0 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->editsurat('assets', 'img', 'messages-2.jpg')
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-11-10 07:30:25 --> Surat with ID: assets not found.
+#0 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->editsurat('assets', 'img', 'messages-3.jpg')
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-11-10 07:32:06 --> Cannot use object of type stdClass as array
+#0 C:\Users\admin\Music\eoffice2\system\View\View.php(210): include()
+#1 C:\Users\admin\Music\eoffice2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\Users\admin\Music\eoffice2\system\Common.php(1089): CodeIgniter\View\View->render('surat.php', Array, true)
+#3 C:\Users\admin\Music\eoffice2\app\Controllers\Home.php(368): view('surat.php', Array)
+#4 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->surat()
+#5 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#9 {main}
+CRITICAL - 2024-11-10 07:42:50 --> Call to a member function get_where() on null
+#0 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->viewsurat('3239')
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-11-10 07:44:56 --> Call to a member function database() on null
+#0 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->viewsurat('3239')
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-11-10 07:44:57 --> Call to a member function database() on null
+#0 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->viewsurat('3239')
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-11-10 07:45:14 --> Call to a member function database() on null
+#0 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->viewsurat('3239')
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-11-10 07:45:20 --> Call to a member function eofficee() on null
+#0 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->viewsurat('3239')
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-11-10 07:45:25 --> Call to a member function get_where() on null
+#0 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->viewsurat('3239')
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-11-10 07:45:26 --> Call to a member function get_where() on null
+#0 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->viewsurat('3239')
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-11-10 07:46:24 --> Call to a member function database() on null
+#0 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->viewsurat('3239')
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-11-10 07:55:59 --> Class 'App\Controllers\mysqli' not found
+#0 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->viewsurat('3239')
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-11-10 07:56:43 --> Call to a member function get_where() on null
+#0 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->viewsurat('3239')
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-11-10 07:56:44 --> Call to a member function get_where() on null
+#0 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->viewsurat('3239')
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-11-10 07:56:51 --> Call to a member function get_where() on null
+#0 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->viewsurat('3239')
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-11-10 08:02:21 --> syntax error, unexpected '}', expecting end of file
+#0 C:\Users\admin\Music\eoffice2\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/viewsurat/...')
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/viewsurat/...')
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-11-10 08:03:23 --> Invalid argument supplied for foreach()
+#0 C:\Users\admin\Music\eoffice2\app\Views\dokumen_kesiswaan.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\admin\\...', 41, Array)
+#1 C:\Users\admin\Music\eoffice2\system\View\View.php(210): include('C:\\Users\\admin\\...')
+#2 C:\Users\admin\Music\eoffice2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\admin\Music\eoffice2\system\Common.php(1089): CodeIgniter\View\View->render('dokumen_kesiswa...', Array, true)
+#4 C:\Users\admin\Music\eoffice2\app\Controllers\Home.php(1370): view('dokumen_kesiswa...', Array)
+#5 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->viewSurat('3239')
+#6 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#10 {main}
+CRITICAL - 2024-11-10 08:03:41 --> Invalid argument supplied for foreach()
+#0 C:\Users\admin\Music\eoffice2\app\Views\surat.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\admin\\...', 44, Array)
+#1 C:\Users\admin\Music\eoffice2\system\View\View.php(210): include('C:\\Users\\admin\\...')
+#2 C:\Users\admin\Music\eoffice2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\admin\Music\eoffice2\system\Common.php(1089): CodeIgniter\View\View->render('surat', Array, true)
+#4 C:\Users\admin\Music\eoffice2\app\Controllers\Home.php(1370): view('surat', Array)
+#5 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->viewSurat('3239')
+#6 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#10 {main}
+CRITICAL - 2024-11-10 08:04:25 --> Invalid argument supplied for foreach()
+#0 C:\Users\admin\Music\eoffice2\app\Views\surat.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\admin\\...', 44, Array)
+#1 C:\Users\admin\Music\eoffice2\system\View\View.php(210): include('C:\\Users\\admin\\...')
+#2 C:\Users\admin\Music\eoffice2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\admin\Music\eoffice2\system\Common.php(1089): CodeIgniter\View\View->render('surat', Array, true)
+#4 C:\Users\admin\Music\eoffice2\app\Controllers\Home.php(1372): view('surat', Array)
+#5 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->viewSurat('3239')
+#6 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#10 {main}
+CRITICAL - 2024-11-10 08:04:25 --> Invalid argument supplied for foreach()
+#0 C:\Users\admin\Music\eoffice2\app\Views\surat.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\admin\\...', 44, Array)
+#1 C:\Users\admin\Music\eoffice2\system\View\View.php(210): include('C:\\Users\\admin\\...')
+#2 C:\Users\admin\Music\eoffice2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\admin\Music\eoffice2\system\Common.php(1089): CodeIgniter\View\View->render('surat', Array, true)
+#4 C:\Users\admin\Music\eoffice2\app\Controllers\Home.php(1372): view('surat', Array)
+#5 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->viewSurat('3239')
+#6 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#10 {main}
+CRITICAL - 2024-11-10 08:04:29 --> Invalid argument supplied for foreach()
+#0 C:\Users\admin\Music\eoffice2\app\Views\surat.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\admin\\...', 44, Array)
+#1 C:\Users\admin\Music\eoffice2\system\View\View.php(210): include('C:\\Users\\admin\\...')
+#2 C:\Users\admin\Music\eoffice2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\admin\Music\eoffice2\system\Common.php(1089): CodeIgniter\View\View->render('surat', Array, true)
+#4 C:\Users\admin\Music\eoffice2\app\Controllers\Home.php(1372): view('surat', Array)
+#5 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->viewSurat('3239')
+#6 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#10 {main}
+CRITICAL - 2024-11-10 08:05:10 --> Invalid argument supplied for foreach()
+#0 C:\Users\admin\Music\eoffice2\app\Views\surat.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\admin\\...', 44, Array)
+#1 C:\Users\admin\Music\eoffice2\system\View\View.php(210): include('C:\\Users\\admin\\...')
+#2 C:\Users\admin\Music\eoffice2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\admin\Music\eoffice2\system\Common.php(1089): CodeIgniter\View\View->render('surat', Array, true)
+#4 C:\Users\admin\Music\eoffice2\app\Controllers\Home.php(1372): view('surat', Array)
+#5 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->viewSurat('3239')
+#6 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#10 {main}
+CRITICAL - 2024-11-10 08:05:11 --> Invalid argument supplied for foreach()
+#0 C:\Users\admin\Music\eoffice2\app\Views\surat.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\admin\\...', 44, Array)
+#1 C:\Users\admin\Music\eoffice2\system\View\View.php(210): include('C:\\Users\\admin\\...')
+#2 C:\Users\admin\Music\eoffice2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\admin\Music\eoffice2\system\Common.php(1089): CodeIgniter\View\View->render('surat', Array, true)
+#4 C:\Users\admin\Music\eoffice2\app\Controllers\Home.php(1372): view('surat', Array)
+#5 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->viewSurat('3239')
+#6 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#10 {main}
+ERROR - 2024-11-10 08:06:01 --> Unknown column 'tanggal_upload' in 'order clause'
+CRITICAL - 2024-11-10 08:06:01 --> Call to a member function getResult() on bool
+#0 C:\Users\admin\Music\eoffice2\app\Controllers\Home.php(1268): App\Models\Model_belajar->tampil('dokumen_keuanga...', 'tanggal_upload')
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->dokumenKeuangan()
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+ERROR - 2024-11-10 08:07:59 --> Unknown column 'tanggal_upload' in 'order clause'
+CRITICAL - 2024-11-10 08:07:59 --> Call to a member function getResult() on bool
+#0 C:\Users\admin\Music\eoffice2\app\Controllers\Home.php(1268): App\Models\Model_belajar->tampil('dokumen_keuanga...', 'tanggal_upload')
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->dokumenKeuangan()
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-11-10 08:32:27 --> Cannot redeclare App\Controllers\Home::dokumenAkademik()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2024-11-10 20:36:13 --> Table 'eofficee.dokumen_kesiswaan' doesn't exist
+CRITICAL - 2024-11-10 20:36:13 --> Call to a member function getResult() on bool
+#0 C:\Users\admin\Music\eoffice2\app\Controllers\Home.php(1063): App\Models\Model_belajar->tampil('dokumen_kesiswa...', 'tanggal_upload')
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->dokumenKesiswaan()
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}

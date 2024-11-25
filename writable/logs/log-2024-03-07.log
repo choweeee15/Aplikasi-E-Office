@@ -1,0 +1,24 @@
+CRITICAL - 2024-03-07 14:41:21 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\spark(45): require('C:\\Users\\user\\D...')
+#4 {main}
+CRITICAL - 2024-03-07 14:41:44 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\spark(45): require('C:\\Users\\user\\D...')
+#4 {main}
+CRITICAL - 2024-03-07 14:43:48 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\spark(45): require('C:\\Users\\user\\D...')
+#4 {main}
+CRITICAL - 2024-03-07 14:50:22 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\spark(45): require('C:\\Users\\user\\D...')
+#4 {main}

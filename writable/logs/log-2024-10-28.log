@@ -1,0 +1,634 @@
+CRITICAL - 2024-10-28 05:08:02 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'logo.png')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 05:08:02 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'messages-1.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 05:08:03 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'messages-2.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 05:08:03 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'messages-3.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 05:08:03 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'profile-img.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 05:08:32 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'logo.png')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 05:08:32 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'messages-1.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 05:08:32 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'messages-2.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 05:08:32 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'messages-3.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 05:08:32 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'profile-img.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 05:08:56 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'logo.png')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 05:08:56 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'messages-1.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 05:08:56 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'messages-2.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 05:08:56 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'messages-3.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 05:08:56 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'profile-img.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 09:16:23 --> syntax error, unexpected end of file
+#0 C:\Users\admin\Downloads\gudang\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\admin\Downloads\gudang\system\Common.php(1089): CodeIgniter\View\View->render('barang_rusak.ph...', Array, true)
+#2 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(491): view('barang_rusak.ph...', Array)
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->barangRusak()
+#4 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#8 {main}
+CRITICAL - 2024-10-28 09:16:30 --> syntax error, unexpected end of file
+#0 C:\Users\admin\Downloads\gudang\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\admin\Downloads\gudang\system\Common.php(1089): CodeIgniter\View\View->render('barang_rusak.ph...', Array, true)
+#2 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(491): view('barang_rusak.ph...', Array)
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->barangRusak()
+#4 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#8 {main}
+CRITICAL - 2024-10-28 09:17:36 --> syntax error, unexpected end of file
+#0 C:\Users\admin\Downloads\gudang\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\Users\admin\Downloads\gudang\system\Common.php(1089): CodeIgniter\View\View->render('barang_rusak.ph...', Array, true)
+#2 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(491): view('barang_rusak.ph...', Array)
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->barangRusak()
+#4 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#8 {main}
+CRITICAL - 2024-10-28 09:26:50 --> Too few arguments to function App\Controllers\Home::hapus_barangmasuk(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_barangmasuk()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 09:27:20 --> Too few arguments to function App\Controllers\Home::hapus_barangmasuk(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_barangmasuk()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 09:27:21 --> Too few arguments to function App\Controllers\Home::hapus_barangmasuk(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_barangmasuk()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 09:27:24 --> Too few arguments to function App\Controllers\Home::hapus_barangmasuk(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_barangmasuk()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 09:28:05 --> Too few arguments to function App\Controllers\Home::hapus_barangmasuk(), 0 passed in C:\Users\admin\Downloads\gudang\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->hapus_barangmasuk()
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 09:33:12 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'logo.png')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 09:33:12 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'messages-1.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 09:33:13 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'messages-2.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 09:33:13 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'messages-3.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 09:33:13 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'profile-img.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 09:33:18 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'logo.png')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 09:33:18 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'messages-1.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 09:33:18 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'messages-2.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 09:33:19 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'messages-3.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 09:33:19 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'profile-img.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+ERROR - 2024-10-28 09:57:19 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `tanggal` < IS NULL' at line 4
+CRITICAL - 2024-10-28 09:57:19 --> Call to a member function getResult() on bool
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(167): App\Models\Model_belajar->filter('barang_rusak', 'barang', 'barang_rusak.id...', 'tanggal >=', 'tanggal <=', NULL, NULL)
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->lapbr()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+ERROR - 2024-10-28 09:58:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `tanggal` < IS NULL' at line 4
+CRITICAL - 2024-10-28 09:58:45 --> Call to a member function getResult() on bool
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(167): App\Models\Model_belajar->filter('barang_rusak', 'barang', 'barang_rusak.id...', 'tanggal >=', 'tanggal <=', NULL, NULL)
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->lapbr()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+ERROR - 2024-10-28 09:58:52 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'IS NULL
+AND `tanggal` < IS NULL' at line 4
+CRITICAL - 2024-10-28 09:58:52 --> Call to a member function getResult() on bool
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(167): App\Models\Model_belajar->filter('barang_rusak', 'barang', 'barang_rusak.id...', 'tanggal >=', 'tanggal <=', NULL, NULL)
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->lapbr()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+ERROR - 2024-10-28 21:28:53 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2024-10-28 21:28:53 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\Users\admin\Downloads\gudang\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\admin\Downloads\gudang\system\Database\BaseBuilder.php(1588): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\admin\Downloads\gudang\app\Models\Model_belajar.php(47): CodeIgniter\Database\BaseBuilder->getWhere(Array)
+#3 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(23): App\Models\Model_belajar->getWhere('user', Array)
+#4 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->aksi_login()
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#9 {main}
+CRITICAL - 2024-10-28 21:29:18 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'logo.png')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 21:29:18 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'messages-1.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 21:29:19 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'messages-2.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 21:29:19 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'messages-3.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 21:29:19 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'profile-img.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 21:29:22 --> Barang with ID: reset not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('reset')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 21:29:25 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'logo.png')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 21:29:25 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'messages-1.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 21:29:25 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'messages-2.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 21:29:25 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'messages-3.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 21:29:26 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'profile-img.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 21:38:57 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'logo.png')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 21:38:57 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'messages-1.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 21:38:57 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'messages-2.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 21:38:57 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'messages-3.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 21:38:58 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'profile-img.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 21:39:04 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'logo.png')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 21:39:04 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'messages-1.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 21:39:05 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'messages-2.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 21:39:05 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'messages-3.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 21:39:05 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'profile-img.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 21:41:00 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'logo.png')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 21:41:00 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'messages-1.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 21:41:00 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'messages-2.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 21:41:01 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'messages-3.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 21:41:01 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'profile-img.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 21:43:25 --> Barang with ID: barang not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('barang')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 21:43:30 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'logo.png')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 21:43:30 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'messages-1.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 21:43:30 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'messages-2.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 21:43:30 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'messages-3.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 21:43:31 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'profile-img.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 21:46:31 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'logo.png')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 21:46:31 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'messages-1.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 21:46:31 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'messages-2.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 21:46:31 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'messages-3.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 21:46:31 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'profile-img.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 21:46:33 --> Barang with ID: barang not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('barang')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 21:46:35 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'logo.png')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 21:46:35 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'messages-1.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 21:46:35 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'messages-2.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 21:46:35 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'messages-3.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 21:46:35 --> Barang with ID: assets not found.
+#0 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->editbarang('assets', 'img', 'profile-img.jpg')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-10-28 23:43:05 --> Too few arguments to function App\Models\Model_belajar::tampil(), 1 passed in C:\Users\admin\Downloads\gudang\app\Controllers\Home.php on line 750 and exactly 2 expected
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(750): App\Models\Model_belajar->tampil('barang')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->tambahbarangmasuk()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-10-28 23:43:13 --> Too few arguments to function App\Models\Model_belajar::tampil(), 1 passed in C:\Users\admin\Downloads\gudang\app\Controllers\Home.php on line 750 and exactly 2 expected
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(750): App\Models\Model_belajar->tampil('barang')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->tambahbarangmasuk()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-10-28 23:54:12 --> syntax error, unexpected '$wendy' (T_VARIABLE)
+#0 C:\Users\admin\Downloads\gudang\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tambahbara...')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tambahbara...')
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-10-28 23:54:12 --> syntax error, unexpected '$wendy' (T_VARIABLE)
+#0 C:\Users\admin\Downloads\gudang\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/tambahbara...')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/tambahbara...')
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-10-28 23:54:51 --> Too few arguments to function App\Models\Model_belajar::tampil(), 1 passed in C:\Users\admin\Downloads\gudang\app\Controllers\Home.php on line 751 and exactly 2 expected
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(751): App\Models\Model_belajar->tampil('barang')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->tambahbarangmasuk()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-10-28 23:55:48 --> Too few arguments to function App\Models\Model_belajar::tampil(), 1 passed in C:\Users\admin\Downloads\gudang\app\Controllers\Home.php on line 751 and exactly 2 expected
+#0 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(751): App\Models\Model_belajar->tampil('barang')
+#1 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->tambahbarangmasuk()
+#2 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}

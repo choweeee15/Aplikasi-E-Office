@@ -1,0 +1,190 @@
+CRITICAL - 2024-11-20 00:21:12 --> syntax error, unexpected '=', expecting ']'
+#0 C:\Users\admin\Music\eoffice2\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/arsipSurat')
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/arsipSurat')
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-11-20 00:22:12 --> Object of class App\Models\Model_belajar could not be converted to string
+#0 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->arsipSurat()
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-11-20 00:22:13 --> Object of class App\Models\Model_belajar could not be converted to string
+#0 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->arsipSurat()
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+CRITICAL - 2024-11-20 00:31:07 --> Object of class App\Models\Model_belajar could not be converted to string
+#0 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->arsipSurat()
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#5 {main}
+ERROR - 2024-11-20 00:32:13 --> Unknown column 'arsip_surat.id_user' in 'where clause'
+CRITICAL - 2024-11-20 00:32:13 --> Call to a member function getRow() on bool
+#0 C:\Users\admin\Music\eoffice2\app\Controllers\Home.php(978): App\Models\Model_belajar->joinw('arsip_surat', 'user', 'arsip_surat.id_...', Array)
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->arsipSurat()
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+ERROR - 2024-11-20 00:34:07 --> Unknown column 'arsip_surat.id_user' in 'where clause'
+CRITICAL - 2024-11-20 00:34:07 --> Call to a member function getResult() on bool
+#0 C:\Users\admin\Music\eoffice2\app\Controllers\Home.php(978): App\Models\Model_belajar->joinarsip('arsip_surat', 'user', 'arsip_surat.id_...', Array)
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->arsipSurat()
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+ERROR - 2024-11-20 00:35:04 --> Unknown column 'arsip_surat.id_user' in 'where clause'
+CRITICAL - 2024-11-20 00:35:04 --> Call to a member function getResult() on bool
+#0 C:\Users\admin\Music\eoffice2\app\Controllers\Home.php(978): App\Models\Model_belajar->joinarsip('arsip_surat', 'user', 'arsip_surat.id_...', Array)
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->arsipSurat()
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+ERROR - 2024-11-20 00:35:16 --> Unknown column 'arsip_surat.id_user' in 'where clause'
+CRITICAL - 2024-11-20 00:35:16 --> Call to a member function getResult() on bool
+#0 C:\Users\admin\Music\eoffice2\app\Controllers\Home.php(978): App\Models\Model_belajar->joinarsip('arsip_surat', 'user', 'arsip_surat.id_...', Array)
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->arsipSurat()
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+ERROR - 2024-11-20 00:37:29 --> Unknown column 'arsip_surat.id_user' in 'where clause'
+CRITICAL - 2024-11-20 00:37:29 --> Call to a member function getRow() on bool
+#0 C:\Users\admin\Music\eoffice2\app\Controllers\Home.php(978): App\Models\Model_belajar->joinw('arsip_surat', 'user', 'arsip_surat.id_...', Array)
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->arsipSurat()
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-11-20 00:39:10 --> Invalid argument supplied for foreach()
+#0 C:\Users\admin\Music\eoffice2\app\Views\arsip_surat.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\admin\\...', 46, Array)
+#1 C:\Users\admin\Music\eoffice2\system\View\View.php(210): include('C:\\Users\\admin\\...')
+#2 C:\Users\admin\Music\eoffice2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\admin\Music\eoffice2\system\Common.php(1089): CodeIgniter\View\View->render('arsip_surat.php', Array, true)
+#4 C:\Users\admin\Music\eoffice2\app\Controllers\Home.php(982): view('arsip_surat.php', Array)
+#5 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->arsipSurat()
+#6 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#10 {main}
+CRITICAL - 2024-11-20 00:39:41 --> Invalid argument supplied for foreach()
+#0 C:\Users\admin\Music\eoffice2\app\Views\arsip_surat.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\admin\\...', 46, Array)
+#1 C:\Users\admin\Music\eoffice2\system\View\View.php(210): include('C:\\Users\\admin\\...')
+#2 C:\Users\admin\Music\eoffice2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\admin\Music\eoffice2\system\Common.php(1089): CodeIgniter\View\View->render('arsip_surat.php', Array, true)
+#4 C:\Users\admin\Music\eoffice2\app\Controllers\Home.php(982): view('arsip_surat.php', Array)
+#5 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->arsipSurat()
+#6 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#10 {main}
+ERROR - 2024-11-20 00:41:00 --> Unknown column 'arsip_surat.id_user' in 'on clause'
+CRITICAL - 2024-11-20 00:41:00 --> Call to a member function getRow() on bool
+#0 C:\Users\admin\Music\eoffice2\app\Controllers\Home.php(978): App\Models\Model_belajar->joinw('arsip_surat', 'user', 'arsip_surat.id_...', Array)
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->arsipSurat()
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-11-20 00:42:05 --> Invalid argument supplied for foreach()
+#0 C:\Users\admin\Music\eoffice2\app\Views\arsip_surat.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\admin\\...', 46, Array)
+#1 C:\Users\admin\Music\eoffice2\system\View\View.php(210): include('C:\\Users\\admin\\...')
+#2 C:\Users\admin\Music\eoffice2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\admin\Music\eoffice2\system\Common.php(1089): CodeIgniter\View\View->render('arsip_surat.php', Array, true)
+#4 C:\Users\admin\Music\eoffice2\app\Controllers\Home.php(982): view('arsip_surat.php', Array)
+#5 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->arsipSurat()
+#6 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#10 {main}
+CRITICAL - 2024-11-20 00:42:59 --> Invalid argument supplied for foreach()
+#0 C:\Users\admin\Music\eoffice2\app\Views\arsip_surat.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\admin\\...', 46, Array)
+#1 C:\Users\admin\Music\eoffice2\system\View\View.php(210): include('C:\\Users\\admin\\...')
+#2 C:\Users\admin\Music\eoffice2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\admin\Music\eoffice2\system\Common.php(1089): CodeIgniter\View\View->render('arsip_surat.php', Array, true)
+#4 C:\Users\admin\Music\eoffice2\app\Controllers\Home.php(982): view('arsip_surat.php', Array)
+#5 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->arsipSurat()
+#6 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#10 {main}
+CRITICAL - 2024-11-20 00:52:49 --> Cannot redeclare App\Models\Model_belajar::getPenerimaKhusus()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2024-11-20 00:56:54 --> Unknown column 'created_by' in 'where clause'
+CRITICAL - 2024-11-20 00:56:54 --> Call to a member function getRow() on bool
+#0 C:\Users\admin\Music\eoffice2\app\Controllers\Home.php(982): App\Models\Model_belajar->getWhere('arsip_surat', Array)
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->arsipSurat()
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-11-20 00:58:26 --> You must set the database table to be used with your query.
+#0 C:\Users\admin\Music\eoffice2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\admin\Music\eoffice2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\Users\admin\Music\eoffice2\app\Controllers\Home.php(982): CodeIgniter\Model->__call('getArsipById', Array)
+#3 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->arsipSurat()
+#4 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#8 {main}
+CRITICAL - 2024-11-20 00:58:58 --> You must set the database table to be used with your query.
+#0 C:\Users\admin\Music\eoffice2\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 C:\Users\admin\Music\eoffice2\system\Model.php(722): CodeIgniter\Model->builder()
+#2 C:\Users\admin\Music\eoffice2\app\Controllers\Home.php(977): CodeIgniter\Model->__call('getArsipData', Array)
+#3 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->arsipSurat()
+#4 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#8 {main}
+ERROR - 2024-11-20 18:11:47 --> Table 'eoffice3.dokumen_absensi' doesn't exist
+CRITICAL - 2024-11-20 18:11:47 --> Call to a member function getResult() on bool
+#0 C:\Users\admin\Music\eoffice2\app\Controllers\Home.php(1537): App\Models\Model_belajar->eltampil('dokumen_absensi')
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->dokumenAbsensi()
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-11-20 22:52:15 --> Invalid argument supplied for foreach()
+#0 C:\Users\admin\Music\eoffice2\app\Views\tambahsuratkeluar.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\Users\\admin\\...', 52, Array)
+#1 C:\Users\admin\Music\eoffice2\system\View\View.php(210): include('C:\\Users\\admin\\...')
+#2 C:\Users\admin\Music\eoffice2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\Users\admin\Music\eoffice2\system\Common.php(1089): CodeIgniter\View\View->render('tambahsuratkelu...', Array, true)
+#4 C:\Users\admin\Music\eoffice2\app\Controllers\Home.php(773): view('tambahsuratkelu...', Array)
+#5 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->tambahsuratkeluar()
+#6 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#10 {main}
+ERROR - 2024-11-20 22:54:13 --> Unknown column 'id_user' in 'field list'
+ERROR - 2024-11-20 22:55:16 --> Unknown column 'id_user' in 'field list'
+ERROR - 2024-11-20 22:57:14 --> Unknown column 'id_user' in 'field list'
+ERROR - 2024-11-20 22:59:17 --> Unknown column 'id_user' in 'field list'
+ERROR - 2024-11-20 23:00:10 --> Unknown column 'id_user' in 'field list'
+ERROR - 2024-11-20 23:03:42 --> Unknown column 'id_user' in 'field list'

@@ -1,0 +1,91 @@
+ERROR - 2024-10-20 22:35:20 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2024-10-20 22:35:20 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 C:\Users\admin\Downloads\gudang\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\admin\Downloads\gudang\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\admin\Downloads\gudang\app\Models\Model_belajar.php(12): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(187): App\Models\Model_belajar->tampil('barang')
+#4 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->barang()
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#9 {main}
+ERROR - 2024-10-20 22:35:20 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2024-10-20 22:35:20 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 C:\Users\admin\Downloads\gudang\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\admin\Downloads\gudang\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\admin\Downloads\gudang\app\Models\Model_belajar.php(12): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(187): App\Models\Model_belajar->tampil('barang')
+#4 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->barang()
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#9 {main}
+ERROR - 2024-10-20 22:37:02 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2024-10-20 22:37:02 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 C:\Users\admin\Downloads\gudang\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\admin\Downloads\gudang\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\admin\Downloads\gudang\app\Models\Model_belajar.php(12): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(187): App\Models\Model_belajar->tampil('barang')
+#4 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->barang()
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#9 {main}
+ERROR - 2024-10-20 22:37:02 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2024-10-20 22:37:02 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 C:\Users\admin\Downloads\gudang\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\admin\Downloads\gudang\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\admin\Downloads\gudang\app\Models\Model_belajar.php(12): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(187): App\Models\Model_belajar->tampil('barang')
+#4 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->barang()
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#9 {main}
+ERROR - 2024-10-20 22:37:24 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2024-10-20 22:37:24 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 C:\Users\admin\Downloads\gudang\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\admin\Downloads\gudang\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\admin\Downloads\gudang\app\Models\Model_belajar.php(12): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(187): App\Models\Model_belajar->tampil('barang')
+#4 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->barang()
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#9 {main}
+ERROR - 2024-10-20 22:52:18 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2024-10-20 22:52:18 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 C:\Users\admin\Downloads\gudang\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\admin\Downloads\gudang\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\admin\Downloads\gudang\app\Models\Model_belajar.php(12): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(187): App\Models\Model_belajar->tampil('barang')
+#4 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->barang()
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#9 {main}
+ERROR - 2024-10-20 23:35:38 --> Error connecting to the database: MySQL server has gone away
+CRITICAL - 2024-10-20 23:35:38 --> Unable to connect to the database.
+Main connection [MySQLi]: MySQL server has gone away
+#0 C:\Users\admin\Downloads\gudang\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\Users\admin\Downloads\gudang\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\Users\admin\Downloads\gudang\app\Models\Model_belajar.php(12): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\Users\admin\Downloads\gudang\app\Controllers\Home.php(187): App\Models\Model_belajar->tampil('barang')
+#4 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(832): App\Controllers\Home->barang()
+#5 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\admin\Downloads\gudang\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\admin\Downloads\gudang\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\admin\Downloads\gudang\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#9 {main}

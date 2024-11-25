@@ -1,0 +1,96 @@
+CRITICAL - 2024-01-18 22:17:04 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\LENOVO...')
+#1 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#9 {main}
+CRITICAL - 2024-01-18 22:17:12 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\LENOVO...')
+#1 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#9 {main}
+CRITICAL - 2024-01-18 22:17:12 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\LENOVO...')
+#1 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#9 {main}
+CRITICAL - 2024-01-18 22:17:13 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\LENOVO...')
+#1 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#9 {main}
+CRITICAL - 2024-01-18 22:17:13 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\LENOVO...')
+#1 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#9 {main}
+CRITICAL - 2024-01-18 22:17:13 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\LENOVO...')
+#1 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#9 {main}
+CRITICAL - 2024-01-18 22:19:30 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\LENOVO...')
+#1 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#9 {main}
+CRITICAL - 2024-01-18 22:19:30 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\LENOVO...')
+#1 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#9 {main}
+CRITICAL - 2024-01-18 22:20:37 --> syntax error, unexpected 'public' (T_PUBLIC), expecting end of file
+#0 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/Tacciie')
+#1 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/Tacciie')
+#2 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\LENOVO\Downloads\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\LENOVO...')
+#6 {main}

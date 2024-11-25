@@ -1,0 +1,228 @@
+CRITICAL - 2024-03-14 23:12:58 --> syntax error, unexpected 'class' (T_CLASS), expecting ';' or ','
+#0 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\user\\D...')
+#1 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(797): class_exists('\\App\\Controller...', true)
+#5 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(406): CodeIgniter\CodeIgniter->startController()
+#6 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\user\\D...')
+#9 {main}
+CRITICAL - 2024-03-14 23:13:52 --> syntax error, unexpected 'class' (T_CLASS), expecting ';' or ','
+#0 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/Kontroller')
+#1 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/Kontroller')
+#2 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\user\\D...')
+#6 {main}
+CRITICAL - 2024-03-14 23:15:41 --> syntax error, unexpected 'class' (T_CLASS), expecting ';' or ','
+#0 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/Kontroller')
+#1 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/Kontroller')
+#2 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\user\\D...')
+#6 {main}
+CRITICAL - 2024-03-14 23:16:05 --> syntax error, unexpected 'class' (T_CLASS), expecting ';' or ','
+#0 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/Kontroller')
+#1 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/Kontroller')
+#2 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\user\\D...')
+#6 {main}
+CRITICAL - 2024-03-14 23:16:05 --> syntax error, unexpected 'class' (T_CLASS), expecting ';' or ','
+#0 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/Kontroller')
+#1 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/Kontroller')
+#2 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\user\\D...')
+#6 {main}
+CRITICAL - 2024-03-14 23:16:13 --> syntax error, unexpected 'class' (T_CLASS), expecting ';' or ','
+#0 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/Kontroller')
+#1 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/Kontroller')
+#2 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\user\\D...')
+#6 {main}
+CRITICAL - 2024-03-14 23:18:00 --> syntax error, unexpected 'class' (T_CLASS), expecting ';' or ','
+#0 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/Kontroller')
+#1 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/Kontroller')
+#2 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\user\\D...')
+#6 {main}
+CRITICAL - 2024-03-14 23:18:01 --> syntax error, unexpected 'class' (T_CLASS), expecting ';' or ','
+#0 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/Kontroller')
+#1 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/Kontroller')
+#2 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\user\\D...')
+#6 {main}
+CRITICAL - 2024-03-14 23:18:05 --> syntax error, unexpected 'class' (T_CLASS), expecting ';' or ','
+#0 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/tes')
+#1 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/tes')
+#2 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\user\\D...')
+#6 {main}
+CRITICAL - 2024-03-14 23:23:37 --> syntax error, unexpected 'class' (T_CLASS), expecting ';' or ','
+#0 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/tes')
+#1 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/tes')
+#2 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\user\\D...')
+#6 {main}
+CRITICAL - 2024-03-14 23:23:38 --> syntax error, unexpected 'class' (T_CLASS), expecting ';' or ','
+#0 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/tes')
+#1 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/tes')
+#2 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\user\\D...')
+#6 {main}
+CRITICAL - 2024-03-14 23:30:53 --> syntax error, unexpected 'class' (T_CLASS), expecting ';' or ','
+#0 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/tes')
+#1 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/tes')
+#2 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\user\\D...')
+#6 {main}
+CRITICAL - 2024-03-14 23:30:54 --> syntax error, unexpected 'class' (T_CLASS), expecting ';' or ','
+#0 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/tes')
+#1 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/tes')
+#2 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\user\\D...')
+#6 {main}
+CRITICAL - 2024-03-14 23:31:30 --> syntax error, unexpected '{', expecting function (T_FUNCTION) or const (T_CONST)
+#0 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('Home/tes')
+#1 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('Home/tes')
+#2 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\user\\D...')
+#6 {main}
+CRITICAL - 2024-03-14 23:36:48 --> Class 'Codeigniter\Model' not found
+#0 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\user\\D...')
+#2 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mymo...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mymo...')
+#4 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\app\Controllers\Home.php(13): spl_autoload_call('App\\Models\\Mymo...')
+#5 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tes()
+#6 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\user\\D...')
+#10 {main}
+CRITICAL - 2024-03-14 23:37:19 --> syntax error, unexpected end of file
+#0 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\user\\D...')
+#1 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mymo...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mymo...')
+#3 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\app\Controllers\Home.php(13): spl_autoload_call('App\\Models\\Mymo...')
+#4 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tes()
+#5 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\user\\D...')
+#9 {main}
+CRITICAL - 2024-03-14 23:38:03 --> syntax error, unexpected 'return' (T_RETURN), expecting ';' or '{'
+#0 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\user\\D...')
+#1 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mymo...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mymo...')
+#3 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\app\Controllers\Home.php(13): spl_autoload_call('App\\Models\\Mymo...')
+#4 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tes()
+#5 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\user\\D...')
+#9 {main}
+CRITICAL - 2024-03-14 23:40:24 --> syntax error, unexpected 'return' (T_RETURN), expecting ';' or '{'
+#0 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\user\\D...')
+#1 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mymo...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mymo...')
+#3 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\app\Controllers\Home.php(13): spl_autoload_call('App\\Models\\Mymo...')
+#4 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tes()
+#5 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\user\\D...')
+#9 {main}
+CRITICAL - 2024-03-14 23:41:58 --> syntax error, unexpected end of file
+#0 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\user\\D...')
+#1 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mymo...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mymo...')
+#3 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\app\Controllers\Home.php(13): spl_autoload_call('App\\Models\\Mymo...')
+#4 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tes()
+#5 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\user\\D...')
+#9 {main}
+CRITICAL - 2024-03-14 23:42:14 --> syntax error, unexpected end of file
+#0 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\user\\D...')
+#1 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mymo...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mymo...')
+#3 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\app\Controllers\Home.php(13): spl_autoload_call('App\\Models\\Mymo...')
+#4 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tes()
+#5 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\user\\D...')
+#9 {main}
+CRITICAL - 2024-03-14 23:43:29 --> syntax error, unexpected end of file
+#0 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\user\\D...')
+#1 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mymo...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mymo...')
+#3 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\app\Controllers\Home.php(13): spl_autoload_call('App\\Models\\Mymo...')
+#4 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tes()
+#5 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\user\\D...')
+#9 {main}
+CRITICAL - 2024-03-14 23:44:58 --> syntax error, unexpected '}', expecting '{'
+#0 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\user\\D...')
+#1 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mymo...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mymo...')
+#3 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\app\Controllers\Home.php(13): spl_autoload_call('App\\Models\\Mymo...')
+#4 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tes()
+#5 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\user\\D...')
+#9 {main}
+CRITICAL - 2024-03-14 23:45:16 --> Class 'Codeigniter\Model' not found
+#0 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\user\\D...')
+#2 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mymo...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mymo...')
+#4 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\app\Controllers\Home.php(13): spl_autoload_call('App\\Models\\Mymo...')
+#5 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tes()
+#6 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\user\\D...')
+#10 {main}
+CRITICAL - 2024-03-14 23:45:57 --> Class 'Codeigniter\Model' not found
+#0 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(264): include_once()
+#1 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\Users\\user\\D...')
+#2 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Mymo...')
+#3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Mymo...')
+#4 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\app\Controllers\Home.php(13): spl_autoload_call('App\\Models\\Mymo...')
+#5 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(832): App\Controllers\Home->tes()
+#6 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\Users\user\Downloads\Folder Save Boboy\CodeIgniter4-4.1.9\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\user\\D...')
+#10 {main}

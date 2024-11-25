@@ -1,0 +1,16 @@
+CRITICAL - 2024-11-17 19:21:23 --> Too few arguments to function App\Models\Model_belajar::tampil(), 1 passed in C:\Users\admin\Music\eoffice2\app\Controllers\Home.php on line 161 and exactly 2 expected
+#0 C:\Users\admin\Music\eoffice2\app\Controllers\Home.php(161): App\Models\Model_belajar->tampil('surat')
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(832): App\Controllers\Home->laps()
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
+CRITICAL - 2024-11-17 19:44:46 --> syntax error, unexpected ''deskripsi'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 C:\Users\admin\Music\eoffice2\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('home/dokumen')
+#1 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('home/dokumen')
+#2 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\Users\admin\Music\eoffice2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\Users\admin\Music\eoffice2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\Users\admin\Music\eoffice2\system\Commands\Server\rewrite.php(43): require_once('C:\\Users\\admin\\...')
+#6 {main}
