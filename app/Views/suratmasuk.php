@@ -30,16 +30,17 @@
                                 <thead class="thead-dark">
                                     <tr>
                                         <th style="width: 5%;">No</th>
-                                        <th style="width: 20%;">ID Surat Masuk Office</th>
+                                        <th style="width: 20%;">ID Surat Masuk</th>
                                         <th style="width: 25%;">Nama Surat</th>
-                                        <th style="width: 15%;">Jumlah Lampiran</th>
-                                        <th style="width: 15%;">Tanggal</th>
+                                        <th style="width: 22%;">Jumlah Lampiran</th>
+                                        <th style="width: 20%;">Tanggal</th>
                                         <th style="width: 10%;">Status</th>
+                                        <th style="width: 10%;">File</th> <!-- New File column -->
                                         <th style="width: 10%;">Aksi</th>
                                     </tr>
                                 </thead>
                                 <tbody>
-                                    <?php 
+                                    <?php
                                     $ms = 1;
                                     foreach ($takdirestui as $item): ?>
                                         <tr>
@@ -48,13 +49,36 @@
                                             <td><?= $item->nama_surat; ?></td>
                                             <td><?= $item->jumlah; ?></td>
                                             <td><?= $item->tanggal; ?></td>
-                                            <td><?= $item->status   ; ?></td>
+                                            <td>
+                                                <?php if ($item->penerima == session()->get('nama')): ?>
+                                                    <?php if ($item->status == "Belum Dibaca"): ?>
+                                                        <a href="<?= base_url('home/updateStatusSuratMasuk/' . $item->id_suratmasuk) ?>"
+                                                           class="btn btn-primary btn-sm">Baca</a>
+                                                    <?php else: ?>
+                                                        <span>Sudah Dibaca</span>
+                                                    <?php endif; ?>
+                                                <?php else: ?>
+                                                    <span><?= $item->status; ?></span>
+                                                <?php endif; ?>
+                                            </td>
+                                            <td>
+                                                <?php if (!empty($item->file)): ?>
+                                                    <a href="<?= base_url('uploads/' . $item->file); ?>" class="btn btn-success btn-sm" download>
+                                                        <i class="fas fa-download"></i> Download
+                                                    </a>
+                                                <?php else: ?>
+                                                    <span>No File</span>
+                                                <?php endif; ?>
+                                            </td>
                                             <td>
                                                 <div class="d-flex flex-wrap gap-2">
-                                                    <a href="<?= base_url('home/update_suratmasuk/' . $item->id_suratmasuk) ?>" class="btn btn-danger btn-sm">Hapus</a>
-                                                </div>
-                                                <div class="d-flex flex-wrap gap-2">
-                                                    <a href="<?= base_url('home/DetailSuratMasuk/' . $item->id_suratmasuk) ?>" class="btn btn-danger btn-sm">Detail</a>
+                                                    <a href="<?= base_url('home/update_suratmasuk/' . $item->id_suratmasuk) ?>"
+                                                       class="btn btn-danger btn-sm" title="Hapus">
+                                                        <i class="fas fa-trash-alt"></i>
+                                                    </a>
+                                                    <button class="btn btn-info btn-sm" onclick="viewData(<?= htmlspecialchars(json_encode($item), ENT_QUOTES, 'UTF-8') ?>)">
+                                                        Info
+                                                    </button>
                                                 </div>
                                             </td>
                                         </tr>
@@ -66,8 +90,32 @@
                 </div>
             </div>
         </div>
+
+        <!-- Modal for Document Details -->
+        <div class="modal fade" id="documentDetailModal" tabindex="-1" aria-labelledby="documentDetailModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="documentDetailModalLabel">Detail Dokumen</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <p><strong>Pengirim:</strong> <span id="detailPengirim"></span></p>
+                        <p><strong>Penerima:</strong> <span id="detailPenerima"></span></p>
+                        <p><strong>Nama Surat:</strong> <span id="detailNamaSurat"></span></p>
+                        <p><strong>Jumlah Lampiran:</strong> <span id="detailJumlah"></span></p>
+                        <p><strong>Tanggal:</strong> <span id="detailTanggal"></span></p>
+                        <p><strong>Status:</strong> <span id="detailStatus"></span></p>
+                        <p><strong>File:</strong> <a href="#" id="detailFileLink" target="_blank">Lihat File</a></p> <!-- File link in modal -->
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Tutup</button>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
-</main><!-- End #main -->
+</main>
 
 <script>
     function searchTable() {
@@ -89,5 +137,26 @@
                 }
             }
         }
+    }
+
+    function viewData(dokumen) {
+        document.getElementById("detailPengirim").innerText = dokumen.pengirim;
+        document.getElementById("detailPenerima").innerText = dokumen.penerima + " dan lain-lain";
+        document.getElementById("detailNamaSurat").innerText = dokumen.nama_surat;
+        document.getElementById("detailJumlah").innerText = dokumen.jumlah;
+        document.getElementById("detailTanggal").innerText = dokumen.tanggal;
+        document.getElementById("detailStatus").innerText = dokumen.status;
+
+        // Check if file exists and update the modal file link
+        if (dokumen.file) {
+            document.getElementById("detailFileLink").href = "<?= base_url() ?>/uploads/" + dokumen.file;
+        } else {
+            document.getElementById("detailFileLink").innerText = "No file available";
+            document.getElementById("detailFileLink").href = "#";
+        }
+
+        // Show modal
+        var myModal = new bootstrap.Modal(document.getElementById("documentDetailModal"));
+        myModal.show();
     }
 </script>

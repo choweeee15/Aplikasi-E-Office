@@ -1,0 +1,561 @@
+CRITICAL - 2024-11-25 02:28:10 --> Class "App\Controllers\CutiModel" not found
+#0 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->simpancuti()
+#1 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#5 {main}
+CRITICAL - 2024-11-25 02:39:05 --> Undefined variable $cek
+#0 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(37): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\htdocs-larav...', 37)
+#1 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->simpancuti()
+#2 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#6 {main}
+CRITICAL - 2024-11-25 02:43:37 --> Undefined variable $dataCuti
+#0 D:\htdocs-laravel\eoffice\app\Views\cuti.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\htdocs-larav...', 40)
+#1 D:\htdocs-laravel\eoffice\system\View\View.php(210): include('D:\\htdocs-larav...')
+#2 D:\htdocs-laravel\eoffice\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\htdocs-laravel\eoffice\system\Common.php(1089): CodeIgniter\View\View->render('cuti.php', Array, true)
+#4 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(21): view('cuti.php')
+#5 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->cuti()
+#6 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#10 {main}
+CRITICAL - 2024-11-25 02:43:55 --> Attempt to read property "jenis_cuti" on array
+#0 D:\htdocs-laravel\eoffice\app\Views\cuti.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\htdocs-larav...', 43)
+#1 D:\htdocs-laravel\eoffice\system\View\View.php(210): include('D:\\htdocs-larav...')
+#2 D:\htdocs-laravel\eoffice\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\htdocs-laravel\eoffice\system\Common.php(1089): CodeIgniter\View\View->render('cuti', Array, true)
+#4 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(29): view('cuti', Array)
+#5 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->cuti()
+#6 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#10 {main}
+CRITICAL - 2024-11-25 02:43:56 --> Attempt to read property "jenis_cuti" on array
+#0 D:\htdocs-laravel\eoffice\app\Views\cuti.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\htdocs-larav...', 43)
+#1 D:\htdocs-laravel\eoffice\system\View\View.php(210): include('D:\\htdocs-larav...')
+#2 D:\htdocs-laravel\eoffice\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\htdocs-laravel\eoffice\system\Common.php(1089): CodeIgniter\View\View->render('cuti', Array, true)
+#4 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(29): view('cuti', Array)
+#5 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->cuti()
+#6 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#10 {main}
+CRITICAL - 2024-11-25 02:44:24 --> Attempt to read property "jenis_cuti" on array
+#0 D:\htdocs-laravel\eoffice\app\Views\cuti.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\htdocs-larav...', 43)
+#1 D:\htdocs-laravel\eoffice\system\View\View.php(210): include('D:\\htdocs-larav...')
+#2 D:\htdocs-laravel\eoffice\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\htdocs-laravel\eoffice\system\Common.php(1089): CodeIgniter\View\View->render('cuti', Array, true)
+#4 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(29): view('cuti', Array)
+#5 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->cuti()
+#6 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#10 {main}
+CRITICAL - 2024-11-25 02:45:01 --> Attempt to read property "tanggal_mulai" on array
+#0 D:\htdocs-laravel\eoffice\app\Views\cuti.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\htdocs-larav...', 44)
+#1 D:\htdocs-laravel\eoffice\system\View\View.php(210): include('D:\\htdocs-larav...')
+#2 D:\htdocs-laravel\eoffice\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\htdocs-laravel\eoffice\system\Common.php(1089): CodeIgniter\View\View->render('cuti', Array, true)
+#4 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(29): view('cuti', Array)
+#5 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->cuti()
+#6 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#10 {main}
+CRITICAL - 2024-11-25 02:45:38 --> Attempt to read property "tanggal_mulai" on array
+#0 D:\htdocs-laravel\eoffice\app\Views\cuti.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\htdocs-larav...', 44)
+#1 D:\htdocs-laravel\eoffice\system\View\View.php(210): include('D:\\htdocs-larav...')
+#2 D:\htdocs-laravel\eoffice\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\htdocs-laravel\eoffice\system\Common.php(1089): CodeIgniter\View\View->render('cuti', Array, true)
+#4 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(29): view('cuti', Array)
+#5 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->cuti()
+#6 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#10 {main}
+CRITICAL - 2024-11-25 02:45:40 --> Attempt to read property "tanggal_mulai" on array
+#0 D:\htdocs-laravel\eoffice\app\Views\cuti.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'D:\\htdocs-larav...', 44)
+#1 D:\htdocs-laravel\eoffice\system\View\View.php(210): include('D:\\htdocs-larav...')
+#2 D:\htdocs-laravel\eoffice\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\htdocs-laravel\eoffice\system\Common.php(1089): CodeIgniter\View\View->render('cuti', Array, true)
+#4 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(29): view('cuti', Array)
+#5 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->cuti()
+#6 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#10 {main}
+CRITICAL - 2024-11-25 03:25:56 --> Invalid file: print_surat_cuti.php
+#0 D:\htdocs-laravel\eoffice\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('print_surat_cut...')
+#1 D:\htdocs-laravel\eoffice\system\Common.php(1089): CodeIgniter\View\View->render('print_surat_cut...', Array, true)
+#2 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(178): view('print_surat_cut...', Array)
+#3 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->printcuti('1')
+#4 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#8 {main}
+CRITICAL - 2024-11-25 03:43:14 --> Class "FPDF" not found
+#0 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->printsura('1')
+#1 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#5 {main}
+CRITICAL - 2024-11-25 03:48:00 --> fopen(path/to/logo.png): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(path/to/l...', 'D:\\htdocs-larav...', 1274)
+#1 D:\htdocs-laravel\eoffice\vendor\setasign\fpdf\fpdf.php(1274): fopen('path/to/logo.pn...', 'rb')
+#2 D:\htdocs-laravel\eoffice\vendor\setasign\fpdf\fpdf.php(890): FPDF->_parsepng('path/to/logo.pn...')
+#3 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(174): FPDF->Image('path/to/logo.pn...', 10, 10, 30)
+#4 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->printsura('1')
+#5 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#9 {main}
+CRITICAL - 2024-11-25 03:49:38 --> fopen(images/kop.png): Failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(images/ko...', 'D:\\htdocs-larav...', 1274)
+#1 D:\htdocs-laravel\eoffice\vendor\setasign\fpdf\fpdf.php(1274): fopen('images/kop.png', 'rb')
+#2 D:\htdocs-laravel\eoffice\vendor\setasign\fpdf\fpdf.php(890): FPDF->_parsepng('images/kop.png')
+#3 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(174): FPDF->Image('images/kop.png', 10, 10, 30)
+#4 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->printsura('1')
+#5 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#9 {main}
+CRITICAL - 2024-11-25 03:49:48 --> Undefined property: stdClass::$level
+#0 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\htdocs-larav...', 186)
+#1 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->printsura('1')
+#2 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#6 {main}
+CRITICAL - 2024-11-25 03:50:11 --> Undefined property: stdClass::$level
+#0 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(186): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\htdocs-larav...', 186)
+#1 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->printsura('1')
+#2 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#6 {main}
+CRITICAL - 2024-11-25 03:53:22 --> Trait "App\Controllers\FPDF" not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-11-25 04:02:54 --> Undefined property: stdClass::$nik
+#0 D:\htdocs-laravel\eoffice\app\Views\print_surat_cuti.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\htdocs-larav...', 97)
+#1 D:\htdocs-laravel\eoffice\system\View\View.php(210): include('D:\\htdocs-larav...')
+#2 D:\htdocs-laravel\eoffice\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\htdocs-laravel\eoffice\system\Common.php(1089): CodeIgniter\View\View->render('print_surat_cut...', Array, true)
+#4 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(179): view('print_surat_cut...', Array)
+#5 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->printcuti('1')
+#6 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#10 {main}
+CRITICAL - 2024-11-25 08:23:04 --> You must set the database table to be used with your query.
+#0 D:\htdocs-laravel\eoffice\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\htdocs-laravel\eoffice\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(831): CodeIgniter\Model->__call('queryCustom', Array)
+#3 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->suratmasuk()
+#4 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#8 {main}
+CRITICAL - 2024-11-25 08:23:13 --> You must set the database table to be used with your query.
+#0 D:\htdocs-laravel\eoffice\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\htdocs-laravel\eoffice\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(831): CodeIgniter\Model->__call('queryCustom', Array)
+#3 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->suratmasuk()
+#4 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#8 {main}
+CRITICAL - 2024-11-25 08:23:53 --> You must set the database table to be used with your query.
+#0 D:\htdocs-laravel\eoffice\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\htdocs-laravel\eoffice\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(831): CodeIgniter\Model->__call('queryCustom', Array)
+#3 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->suratmasuk()
+#4 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#8 {main}
+CRITICAL - 2024-11-25 08:24:39 --> You must set the database table to be used with your query.
+#0 D:\htdocs-laravel\eoffice\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\htdocs-laravel\eoffice\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(846): CodeIgniter\Model->__call('tampilSatu', Array)
+#3 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->downloadFile('31')
+#4 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#8 {main}
+CRITICAL - 2024-11-25 08:25:46 --> You must set the database table to be used with your query.
+#0 D:\htdocs-laravel\eoffice\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\htdocs-laravel\eoffice\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(846): CodeIgniter\Model->__call('tampilSatu', Array)
+#3 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->downloadFile('31')
+#4 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#8 {main}
+CRITICAL - 2024-11-25 08:26:14 --> Undefined variable $db
+#0 D:\htdocs-laravel\eoffice\app\Models\Model_belajar.php(12): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\htdocs-larav...', 12)
+#1 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(831): App\Models\Model_belajar->queryCustom('SELECT surat_ma...', Array)
+#2 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->suratmasuk()
+#3 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#4 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#7 {main}
+CRITICAL - 2024-11-25 08:27:12 --> You must set the database table to be used with your query.
+#0 D:\htdocs-laravel\eoffice\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\htdocs-laravel\eoffice\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(846): CodeIgniter\Model->__call('tampilSatu', Array)
+#3 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->downloadFile('31')
+#4 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#8 {main}
+CRITICAL - 2024-11-25 08:27:18 --> You must set the database table to be used with your query.
+#0 D:\htdocs-laravel\eoffice\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\htdocs-laravel\eoffice\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(846): CodeIgniter\Model->__call('tampilSatu', Array)
+#3 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->downloadFile('31')
+#4 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#8 {main}
+CRITICAL - 2024-11-25 08:31:23 --> You must set the database table to be used with your query.
+#0 D:\htdocs-laravel\eoffice\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\htdocs-laravel\eoffice\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(847): CodeIgniter\Model->__call('tampilSatu', Array)
+#3 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->downloadFile('31')
+#4 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#8 {main}
+CRITICAL - 2024-11-25 08:32:28 --> You must set the database table to be used with your query.
+#0 D:\htdocs-laravel\eoffice\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\htdocs-laravel\eoffice\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(831): CodeIgniter\Model->__call('queryCustom', Array)
+#3 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->suratmasuk()
+#4 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#8 {main}
+CRITICAL - 2024-11-25 08:32:31 --> You must set the database table to be used with your query.
+#0 D:\htdocs-laravel\eoffice\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\htdocs-laravel\eoffice\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(831): CodeIgniter\Model->__call('queryCustom', Array)
+#3 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->suratmasuk()
+#4 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#8 {main}
+CRITICAL - 2024-11-25 08:32:37 --> You must set the database table to be used with your query.
+#0 D:\htdocs-laravel\eoffice\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\htdocs-laravel\eoffice\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(831): CodeIgniter\Model->__call('queryCustom', Array)
+#3 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->suratmasuk()
+#4 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#8 {main}
+CRITICAL - 2024-11-25 08:32:45 --> You must set the database table to be used with your query.
+#0 D:\htdocs-laravel\eoffice\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\htdocs-laravel\eoffice\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(831): CodeIgniter\Model->__call('queryCustom', Array)
+#3 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->suratmasuk()
+#4 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#8 {main}
+CRITICAL - 2024-11-25 08:33:16 --> You must set the database table to be used with your query.
+#0 D:\htdocs-laravel\eoffice\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\htdocs-laravel\eoffice\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(831): CodeIgniter\Model->__call('queryCustom', Array)
+#3 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->suratmasuk()
+#4 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#8 {main}
+CRITICAL - 2024-11-25 08:33:42 --> You must set the database table to be used with your query.
+#0 D:\htdocs-laravel\eoffice\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\htdocs-laravel\eoffice\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(831): CodeIgniter\Model->__call('queryCustom', Array)
+#3 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->suratmasuk()
+#4 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#8 {main}
+CRITICAL - 2024-11-25 08:34:02 --> You must set the database table to be used with your query.
+#0 D:\htdocs-laravel\eoffice\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\htdocs-laravel\eoffice\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(831): CodeIgniter\Model->__call('queryCustom', Array)
+#3 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->suratmasuk()
+#4 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#8 {main}
+CRITICAL - 2024-11-25 08:34:20 --> Declaration of App\Models\Model_belajar::update($table, $data, $where) must be compatible with CodeIgniter\Model::update($id = null, $data = null): bool
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-11-25 08:35:48 --> You must set the database table to be used with your query.
+#0 D:\htdocs-laravel\eoffice\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\htdocs-laravel\eoffice\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(832): CodeIgniter\Model->__call('joinWhere', Array)
+#3 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->suratmasuk()
+#4 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#8 {main}
+CRITICAL - 2024-11-25 08:39:08 --> You must set the database table to be used with your query.
+#0 D:\htdocs-laravel\eoffice\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\htdocs-laravel\eoffice\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(833): CodeIgniter\Model->__call('joinDistinct', Array)
+#3 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->suratmasuk()
+#4 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#8 {main}
+ERROR - 2024-11-25 08:39:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.*, `surat`.`nama_surat`
+FROM `surat_masuk`
+JOIN `surat` ON `surat_masuk`.`id...' at line 1
+CRITICAL - 2024-11-25 08:39:21 --> Call to a member function getResult() on bool
+#0 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(833): App\Models\Model_belajar->joinDistinct('surat_masuk', 'surat', 'surat_masuk.id_...', Array)
+#1 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->suratmasuk()
+#2 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#6 {main}
+CRITICAL - 2024-11-25 08:39:29 --> You must set the database table to be used with your query.
+#0 D:\htdocs-laravel\eoffice\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\htdocs-laravel\eoffice\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(833): CodeIgniter\Model->__call('joinDistinct', Array)
+#3 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->suratmasuk()
+#4 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#8 {main}
+ERROR - 2024-11-25 08:39:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.*, `surat`.`nama_surat`
+FROM `surat_masuk`
+JOIN `surat` ON `surat_masuk`.`id...' at line 1
+CRITICAL - 2024-11-25 08:39:41 --> Call to a member function getResult() on bool
+#0 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(833): App\Models\Model_belajar->joinDistinct('surat_masuk', 'surat', 'surat_masuk.id_...', Array)
+#1 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->suratmasuk()
+#2 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#6 {main}
+ERROR - 2024-11-25 08:41:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.*, `surat`.`nama_surat`
+FROM `surat_masuk`
+JOIN `surat` ON `surat_masuk`.`id...' at line 1
+CRITICAL - 2024-11-25 08:41:08 --> Call to a member function getResult() on bool
+#0 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(833): App\Models\Model_belajar->joinDistinct('surat_masuk', 'surat', 'surat_masuk.id_...', Array)
+#1 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->suratmasuk()
+#2 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#6 {main}
+ERROR - 2024-11-25 08:41:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '.*, `surat`.`nama_surat`
+FROM `surat_masuk`
+JOIN `surat` ON `surat_masuk`.`id...' at line 1
+CRITICAL - 2024-11-25 08:41:08 --> Call to a member function getResult() on bool
+#0 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(833): App\Models\Model_belajar->joinDistinct('surat_masuk', 'surat', 'surat_masuk.id_...', Array)
+#1 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->suratmasuk()
+#2 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#3 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#6 {main}
+CRITICAL - 2024-11-25 08:42:53 --> syntax error, unexpected token "endforeach", expecting end of file
+#0 D:\htdocs-laravel\eoffice\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\htdocs-laravel\eoffice\system\Common.php(1089): CodeIgniter\View\View->render('suratmasuk.php', Array, true)
+#2 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(841): view('suratmasuk.php', Array)
+#3 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->suratmasuk()
+#4 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#8 {main}
+CRITICAL - 2024-11-25 08:43:13 --> syntax error, unexpected token "endforeach", expecting end of file
+#0 D:\htdocs-laravel\eoffice\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 D:\htdocs-laravel\eoffice\system\Common.php(1089): CodeIgniter\View\View->render('suratmasuk.php', Array, true)
+#2 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(841): view('suratmasuk.php', Array)
+#3 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->suratmasuk()
+#4 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#8 {main}
+CRITICAL - 2024-11-25 08:47:40 --> Call to undefined method stdClass::getRow()
+#0 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->download_surat('32')
+#1 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#5 {main}
+CRITICAL - 2024-11-25 08:48:51 --> You must set the database table to be used with your query.
+#0 D:\htdocs-laravel\eoffice\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\htdocs-laravel\eoffice\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(855): CodeIgniter\Model->__call('table', Array)
+#3 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->download_surat('32')
+#4 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#8 {main}
+CRITICAL - 2024-11-25 08:48:56 --> You must set the database table to be used with your query.
+#0 D:\htdocs-laravel\eoffice\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\htdocs-laravel\eoffice\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(855): CodeIgniter\Model->__call('table', Array)
+#3 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->download_surat('32')
+#4 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#8 {main}
+CRITICAL - 2024-11-25 08:49:11 --> Call to undefined method stdClass::getRow()
+#0 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->download_surat('32')
+#1 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#5 {main}
+CRITICAL - 2024-11-25 08:51:42 --> There is no data to update.
+#0 D:\htdocs-laravel\eoffice\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\htdocs-laravel\eoffice\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(880): CodeIgniter\Model->update('31', Array)
+#3 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->updateStatusSuratMasuk('31')
+#4 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#8 {main}
+CRITICAL - 2024-11-25 08:52:59 --> You must set the database table to be used with your query.
+#0 D:\htdocs-laravel\eoffice\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\htdocs-laravel\eoffice\system\Model.php(130): CodeIgniter\Model->builder()
+#2 D:\htdocs-laravel\eoffice\system\BaseModel.php(523): CodeIgniter\Model->doFind(true, '31')
+#3 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(880): CodeIgniter\BaseModel->find('31')
+#4 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->updateStatusSuratMasuk('31')
+#5 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#9 {main}
+CRITICAL - 2024-11-25 08:54:52 --> There is no data to update.
+#0 D:\htdocs-laravel\eoffice\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\htdocs-laravel\eoffice\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(880): CodeIgniter\Model->update('31', Array)
+#3 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->updateStatusSuratMasuk('31')
+#4 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#8 {main}
+CRITICAL - 2024-11-25 08:55:41 --> There is no data to update.
+#0 D:\htdocs-laravel\eoffice\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\htdocs-laravel\eoffice\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(880): CodeIgniter\Model->update('31', Array)
+#3 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->updateStatusSuratMasuk('31')
+#4 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#8 {main}
+CRITICAL - 2024-11-25 08:57:37 --> Cannot redeclare App\Models\Model_belajar::$allowedFields
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-11-25 09:44:58 --> Undefined variable $karyawan
+#0 D:\htdocs-laravel\eoffice\app\Views\tambahsuratkeluar.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'D:\\htdocs-larav...', 32)
+#1 D:\htdocs-laravel\eoffice\system\View\View.php(210): include('D:\\htdocs-larav...')
+#2 D:\htdocs-laravel\eoffice\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\htdocs-laravel\eoffice\system\Common.php(1089): CodeIgniter\View\View->render('tambahsuratkelu...', Array, true)
+#4 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(1009): view('tambahsuratkelu...', Array)
+#5 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->tambahsuratkeluar()
+#6 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#10 {main}
+ERROR - 2024-11-25 09:48:36 --> Unknown column 'pengirim' in 'field list'
+CRITICAL - 2024-11-25 09:51:13 --> Undefined property: stdClass::$id_suratmasuk
+#0 D:\htdocs-laravel\eoffice\app\Views\suratkeluar.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'D:\\htdocs-larav...', 48)
+#1 D:\htdocs-laravel\eoffice\system\View\View.php(210): include('D:\\htdocs-larav...')
+#2 D:\htdocs-laravel\eoffice\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 D:\htdocs-laravel\eoffice\system\Common.php(1089): CodeIgniter\View\View->render('suratkeluar.php', Array, true)
+#4 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(536): view('suratkeluar.php', Array)
+#5 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->suratkeluar()
+#6 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#10 {main}
+CRITICAL - 2024-11-25 09:59:13 --> There is no data to update.
+#0 D:\htdocs-laravel\eoffice\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 D:\htdocs-laravel\eoffice\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(899): CodeIgniter\Model->update('2', Array)
+#3 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->updateStatusSuratKeluar('2')
+#4 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#8 {main}
+CRITICAL - 2024-11-25 10:04:24 --> You must set the database table to be used with your query.
+#0 D:\htdocs-laravel\eoffice\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\htdocs-laravel\eoffice\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(550): CodeIgniter\Model->__call('table', Array)
+#3 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#8 {main}
+CRITICAL - 2024-11-25 10:05:38 --> Cannot redeclare App\Controllers\Home::suratmasuk()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2024-11-25 10:06:00 --> You must set the database table to be used with your query.
+#0 D:\htdocs-laravel\eoffice\system\Model.php(545): CodeIgniter\Database\BaseConnection->table(NULL)
+#1 D:\htdocs-laravel\eoffice\system\Model.php(722): CodeIgniter\Model->builder()
+#2 D:\htdocs-laravel\eoffice\app\Controllers\Home.php(550): CodeIgniter\Model->__call('table', Array)
+#3 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(832): App\Controllers\Home->dashboard()
+#4 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 D:\htdocs-laravel\eoffice\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 D:\htdocs-laravel\eoffice\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 D:\htdocs-laravel\eoffice\system\Commands\Server\rewrite.php(43): require_once('D:\\htdocs-larav...')
+#8 {main}

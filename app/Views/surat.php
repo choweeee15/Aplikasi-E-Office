@@ -1,7 +1,7 @@
 <main id="main" class="main">
 
     <div class="pagetitle">
-      <h1>Tabel Surat Office</h1>
+      <h1>Tabel Jenis Surat Office</h1>
       <nav>
         <ol class="breadcrumb">
           <li class="breadcrumb-item"><a href="dashboard">Home</a></li>
@@ -17,7 +17,7 @@
 
           <div class="card">
             <div class="card-body">
-              <h5 class="card-title">Surat Office</h5>
+              <h5 class="card-title">Jenis Surat Office</h5>
 
               <!-- Tombol Tambah Surat -->
               <button class="btn btn-success mb-3">

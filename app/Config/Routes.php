@@ -34,6 +34,13 @@ $routes->setAutoRoute(true);
 $routes->get('/', 'Home::index');
 $routes->get('/', 'Home::index'); // Default page, displays the table
 $routes->get('home/viewSurat/(:num)', 'Home::viewSurat/$1');
+$routes->get('/home/editcuti/(:num)', 'Home::editCuti/$1'); // Menampilkan form edit
+$routes->get('/home/verifikasicuti/(:num)', 'Home::verifikasiCuti/$1'); // Menampilkan form edit
+$routes->get('/home/updatestatuspengganti/(:num)', 'Home::updateStatusPengganti/$1');
+$routes->get('/home/updatestatuspengganti2/(:num)', 'Home::updateStatusPengganti2/$1');
+$routes->post('/home/updatecuti/(:num)', 'Home::updateCuti/$1'); // Memproses update data
+$routes->get('home/download_surat/(:num)', 'Home::download_surat/$1');
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing

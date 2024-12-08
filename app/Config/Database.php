@@ -35,7 +35,7 @@ class Database extends Config
         'hostname' => 'localhost',
         'username' => 'root',
         'password' => '',
-        'database' => 'eoffice_252',
+        'database' => 'officeee',
         'DBDriver' => 'MySQLi',
         'DBPrefix' => '',
         'pConnect' => false,

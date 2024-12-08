@@ -8,13 +8,26 @@
         <span>Dashboard</span>
       </a>
     </li><!-- End Dashboard Nav -->
-    <li class="nav-item">
-      <a class="nav-link collapsed" href="cuti">
-        <i class="bi bi-book"></i>
-        <span>Pengajuan Cuti</span>
-      </a>
-    </li><!-- End Dashboard Nav -->
 
+    <li class="nav-item">
+      <a class="nav-link collapsed" data-bs-target="#cuti-nav" data-bs-toggle="collapse" href="#">
+        <i class="bx bxs-collection"></i><span>Data Cuti</span><i class="bi bi-chevron-down ms-auto"></i>
+      </a>
+      <ul id="cuti-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="cuti">
+            <i class="bi bi-book"></i>
+            <span>Pengajuan Cuti</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="verifikasi_pengganti">
+            <i class="bi bi-book"></i>
+            <span>Verifikasi Guru Pengganti</span>
+          </a>
+        </li>
+      </ul>
+    </li>
     <?php if (session()->get('level') == 1 || session()->get('level') == 2) { ?>
       </li><!-- End Dashboard Nav -->
       <li class="nav-item">
@@ -29,7 +42,7 @@
           </li>
           <li>
             <a href="surat">
-              <i class="bi bi-circle"></i><span>Surat</span>
+              <i class="bi bi-circle"></i><span>Data Jenis Surat</span>
             </a>
           </li>
           <li>
@@ -54,34 +67,13 @@
           </li>
           <li>
             <a href="surat">
-              <i class="bi bi-circle"></i><span>Pemasukan Surat</span>
+              <i class="bi bi-circle"></i><span>Data Jenis Surat</span>
             </a>
           </li>
         </ul>
       </li>
     <?php } ?>
 
-
-
-    <?php if (session()->get('level') == 1 || session()->get('level') == 2 || session()->get('level') == 3) { ?>
-      <li class="nav-item">
-        <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
-          <i class="bx bxs-file"></i><span>Laporan Surat</span><i class="bi bi-chevron-down ms-auto"></i>
-        </a>
-        <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
-          <li>
-            <a href="lsm">
-              <i class="bi bi-circle"></i><span>Laporan Surat Masuk Office</span>
-            </a>
-          </li>
-          <li>
-            <a href="lsk">
-              <i class="bi bi-circle"></i><span>Laporan Surat Keluar Office</span>
-            </a>
-          </li>
-        </ul>
-      </li><!-- End Forms Nav -->
-    <?php } ?>
 
     <?php if (session()->get('level') == 1 || session()->get('level') == 2 || session()->get('level') == 3 || session()->get('level') == 4) { ?>
       <li class="nav-item">
@@ -103,19 +95,24 @@
       </li><!-- End Tables Nav -->
     <?php } ?>
 
-    <?php if (session()->get('level') == 1 || session()->get('level') == 2 || session()->get('level') == 3 || session()->get('level') == 4) { ?>
+    <?php if (session()->get('level') == 1 || session()->get('level') == 2 || session()->get('level') == 3) { ?>
       <li class="nav-item">
         <a class="nav-link collapsed" data-bs-target="#forms-nav" data-bs-toggle="collapse" href="#">
-          <i class="bx bx-briefcase-alt-2"></i><span>Arsip Dokumen</span><i class="bi bi-chevron-down ms-auto"></i>
+          <i class="bx bxs-file"></i><span>Laporan Surat</span><i class="bi bi-chevron-down ms-auto"></i>
         </a>
         <ul id="forms-nav" class="nav-content collapse " data-bs-parent="#sidebar-nav">
           <li>
-            <a href="arsipSurat">
-              <i class="bi bi-circle"></i><span>Arsip Surat</span>
+            <a href="lsm">
+              <i class="bi bi-circle"></i><span>Laporan Surat Masuk Office</span>
+            </a>
+          </li>
+          <li>
+            <a href="lsk">
+              <i class="bi bi-circle"></i><span>Laporan Surat Keluar Office</span>
             </a>
           </li>
         </ul>
-      </li><!-- End Tables Nav -->
+      </li><!-- End Forms Nav -->
     <?php } ?>
 
     <li class="nav-heading">Halaman</li>

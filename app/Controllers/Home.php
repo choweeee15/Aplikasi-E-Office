@@ -3,45 +3,268 @@
 namespace App\Controllers;
 
 use App\Models\Model_belajar;
+use App\Models\CutiModel;
 use TCPDF;
 use Dompdf\Dompdf;
 
 class Home extends BaseController
 {
+    protected $Model_belajar;
     public function index()
     {
         return view('pages-login.php');
     }
+    public function verifikasi_pengganti()
+    {
+        $nama = session()->get('nama'); // Ambil nama dari sesi
+        $db = \Config\Database::connect();
+
+        // Buat query dengan join tabel karyawan
+        $query = $db->table('cuti')
+            // ->join('karyawan', 'karyawan.id_user = cuti.guru_pengganti')
+            ->select('cuti.*') // Ambil semua kolom cuti dan nama pengganti
+            ->where('cuti.guru_pengganti', $nama); // Filter berdasarkan nama dari sesi
+
+        $data['cuti'] = $query->get()->getResult(); // Ambil hasil query
+
+        // Load views dengan data
+        echo view('header.php');
+        echo view('menu.php');
+        echo view('verifikasi_pengganti.php', $data);
+        echo view('footer.php');
+    }
+
 
     public function cuti()
     {
+        $id_user = session()->get('id'); // Ambil id_user dari sesi
+        $level = session()->get('level'); // Ambil level dari sesi
+        $db = \Config\Database::connect();
+
+        // Buat query dasar dengan join tabel karyawan
+        $query = $db->table('cuti')
+            ->join('karyawan', 'karyawan.id_user = cuti.id_user')
+            ->select('cuti.*, karyawan.nama');
+
+        // Jika level bukan 2 atau 1, filter berdasarkan id_user
+        if (!in_array($level, [1, 2])) {
+            $query->where('cuti.id_user', $id_user);
+        }
+
+        $data['cuti'] = $query->get()->getResult(); // Ambil hasil query
+
+        // Load views dengan data
         echo view('header.php');
         echo view('menu.php');
-        echo view('cuti.php');
+        echo view('cuti.php', $data);
         echo view('footer.php');
     }
+
+
+    public function tambahcuti()
+    {
+        $Joyce = new Model_belajar();
+        $data['karyawan'] = $Joyce->tampil('karyawan', 'id_karyawan');
+        echo view('header.php');
+        echo view('menu.php');
+        echo view('tambahcuti.php', $data);
+        echo view('footer.php');
+    }
+
+    public function simpancuti()
+    {
+        $cutiModel = new CutiModel();
+
+        $data = [
+            'id_user' => $this->request->getPost('id_user'),
+            'jenis_cuti' => $this->request->getPost('jenis_cuti'),
+            'tanggal_mulai' => $this->request->getPost('tanggal_mulai'),
+            'tanggal_sampai' => $this->request->getPost('tanggal_sampai'),
+            'alasan' => $this->request->getPost('alasan'),
+            'alamat_cuti' => $this->request->getPost('alamat_cuti'),
+            'guru_pengganti' => $this->request->getPost('guru_pengganti'),
+            'status' => 'Menunggu Verifikasi',
+            'komentar' => null
+        ];
+
+        $cutiModel->save($data);
+
+        return redirect()->to('/home/cuti')->with('message', 'Cuti berhasil diajukan.');
+    }
+
+    public function editCuti($id_cuti)
+    {
+        $db = \Config\Database::connect();
+
+        // Ambil data cuti berdasarkan id_cuti
+        $cuti = $db->table('cuti')->where('id_cuti', $id_cuti)->get()->getRow();
+
+        if ($cuti) {
+            $data['cuti'] = $cuti; // Kirim data ke view
+            return view('header.php')
+                . view('menu.php')
+                . view('edit_cuti.php', $data)
+                . view('footer.php');
+        } else {
+            session()->setFlashdata('error', 'Data cuti tidak ditemukan.');
+            return redirect()->to('/home/cuti');
+        }
+    }
+    public function verifikasiCuti($id_cuti)
+    {
+        $db = \Config\Database::connect();
+
+        // Ambil data cuti berdasarkan id_cuti
+        $cuti = $db->table('cuti')->where('id_cuti', $id_cuti)->get()->getRow();
+
+        if ($cuti) {
+            $data['cuti'] = $cuti; // Kirim data ke view
+            return view('header.php')
+                . view('menu.php')
+                . view('verifikasi_cuti.php', $data)
+                . view('footer.php');
+        } else {
+            session()->setFlashdata('error', 'Data cuti tidak ditemukan.');
+            return redirect()->to('/home/cuti');
+        }
+    }
+    public function updateStatusPengganti($id_cuti)
+    {
+        $db = \Config\Database::connect();
+
+        // Data yang akan diupdate
+        $data = [
+            'status_pengganti' => 'Disetujui',
+        ];
+
+        // Proses update data cuti
+        $db->table('cuti')->where('id_cuti', $id_cuti)->update($data);
+
+        // Set pesan flash
+        session()->setFlashdata('success', 'Data cuti berhasil diperbarui.');
+        return redirect()->to('/home/verifikasi_pengganti');
+    }
+    public function updateStatusPengganti2($id_cuti)
+    {
+        $db = \Config\Database::connect();
+
+        // Data yang akan diupdate
+        $data = [
+            'status_pengganti' => 'Ditolak',
+        ];
+
+        // Proses update data cuti
+        $db->table('cuti')->where('id_cuti', $id_cuti)->update($data);
+
+        // Set pesan flash
+        session()->setFlashdata('success', 'Data cuti berhasil diperbarui.');
+        return redirect()->to('/home/verifikasi_pengganti');
+    }
+    public function updateCuti($id_cuti)
+    {
+        $db = \Config\Database::connect();
+
+        // Data yang akan diupdate
+        $data = [
+            'jenis_cuti' => $this->request->getPost('jenis_cuti'),
+            'tanggal_mulai' => $this->request->getPost('tanggal_mulai'),
+            'tanggal_sampai' => $this->request->getPost('tanggal_sampai'),
+            'alasan' => $this->request->getPost('alasan'),
+            'status' => $this->request->getPost('status'),
+            'status_pengganti' => $this->request->getPost('status_pengganti'),
+            'komentar' => $this->request->getPost('komentar'),
+        ];
+
+        // Proses update data cuti
+        $db->table('cuti')->where('id_cuti', $id_cuti)->update($data);
+
+        // Set pesan flash
+        session()->setFlashdata('success', 'Data cuti berhasil diperbarui.');
+        return redirect()->to('/home/cuti');
+    }
+
+    public function hapusCuti($id_cuti)
+    {
+        $db = \Config\Database::connect();
+
+        // Periksa apakah data cuti dengan id_cuti tersebut ada
+        $cuti = $db->table('cuti')->where('id_cuti', $id_cuti)->get()->getRow();
+
+        if ($cuti) {
+            // Jika data cuti ditemukan, lakukan penghapusan
+            $db->table('cuti')->where('id_cuti', $id_cuti)->delete();
+
+            // Berikan pesan sukses
+            session()->setFlashdata('success', 'Data cuti berhasil dihapus.');
+        } else {
+            // Jika data cuti tidak ditemukan, beri pesan error
+            session()->setFlashdata('error', 'Data cuti tidak ditemukan.');
+        }
+
+        // Redirect kembali ke halaman cuti
+        return redirect()->to('/home/cuti');
+    }
+
+    public function printcuti($id_cuti)
+    {
+        $db = \Config\Database::connect();
+        $query = $db->table('cuti')
+            ->join('karyawan', 'karyawan.id_user = cuti.id_user')  // Join dengan tabel karyawan
+            ->join('user', 'user.id_user = cuti.id_user')  // Join dengan tabel user jika perlu
+            ->where('cuti.id_cuti', $id_cuti)
+            ->get();
+
+        $cuti = $query->getRow(); // Ambil data cuti berdasarkan id_cuti
+
+        if (!$cuti) {
+            // Jika data tidak ditemukan
+            return redirect()->back()->with('error', 'Data Cuti tidak ditemukan');
+        }
+
+        // Mengatur data untuk view
+        $data = [
+            'cuti' => $cuti,
+            'jenis_cuti' => $cuti->jenis_cuti,
+            'nama' => $cuti->nama,
+            'nik' => $cuti->NIK, // NIK diambil dari tabel karyawan
+            'level' => session()->get('level'),
+            'tanggal_mulai' => $cuti->tanggal_mulai,
+            'tanggal_sampai' => $cuti->tanggal_sampai
+        ];
+
+        // Memanggil view yang berisi layout surat
+        return view('print_surat_cuti', $data);
+    }
+
+
     public function aksi_login()
     {
         $a = $this->request->getPost('email');
         $b = $this->request->getPost('pswd');
 
         $Q = new Model_belajar;
-        $D = array('username' => $a, 'password' => $b,);
+        $D = array('username' => $a, 'password' => $b);
 
-        //    print_r($cek);
         $cek = $Q->getWhere('user', $D);
 
-
         if ($cek != null) {
+            // Ambil nama pengguna dari tabel karyawan berdasarkan id_user
+            $db = \Config\Database::connect();
+            $query = $db->table('karyawan')->where('id_user', $cek->id_user)->get();
+            $karyawan = $query->getRow();
+
+            // Simpan data ke dalam sesi
             session()->set('id', $cek->id_user);
             session()->set('u', $cek->username);
             session()->set('level', $cek->level);
+            session()->set('nama', $karyawan->nama); // Tambahkan nama ke sesi
 
             return redirect()->to('home/dashboard');
         } else {
             return redirect()->to('home/index');
         }
     }
+
     public function logout()
     {
         session()->destroy();
@@ -375,15 +598,38 @@ class Home extends BaseController
     }
     public function dashboard()
     {
-        if (session()->get('id') > 0) {
+        if (in_array(session()->get('level'), [1, 2, 3, 4])) {
+
+            // Access the database service
+            $db = \Config\Database::connect();
+
+            // Query the Surat Masuk count
+            $suratMasukCount = $db->table('surat_masuk')->countAllResults();
+
+            // Query the Surat Keluar count
+            $suratKeluarCount = $db->table('surat_keluar')->countAllResults();
+
+            // Query the Cuti count
+            $cutiCount = $db->table('cuti')->countAllResults();
+
+            // Pass data to view
+            $data = [
+                'suratMasukCount' => $suratMasukCount,
+                'suratKeluarCount' => $suratKeluarCount,
+                'cutiCount' => $cutiCount
+            ];
+
+            // Load views
             echo view('header.php');
             echo view('menu.php');
-            echo view('dashboard.php');
+            echo view('dashboard.php', $data);
             echo view('footer.php');
         } else {
             return redirect()->to('home');
         }
     }
+
+
     public function reset()
     {
         echo view('header.php');
@@ -650,10 +896,25 @@ class Home extends BaseController
     }
     public function suratmasuk()
     {
-        if (session()->get('level') == 1 || session()->get('level') == 2 || session()->get('level') == 3 || session()->get('level') == 4) {
+        if (in_array(session()->get('level'), [1, 2, 3, 4])) {
             $Joyce = new Model_belajar;
-            $where = ('id_suratmasuk');
-            $wendy['takdirestui'] = $Joyce->join('surat_masuk', 'surat', 'surat_masuk.id_surat = surat.id_surat', $where);
+
+            // Nama dari session
+            $sessionNama = session()->get('nama');
+
+            // Filter untuk mengambil data berdasarkan pengirim atau penerima
+            $where = [
+                'surat_masuk.penerima' => $sessionNama,
+                'surat_masuk.pengirim' => $sessionNama
+            ];
+
+            $wendy['takdirestui'] = $Joyce->joinWhere(
+                'surat_masuk',
+                'surat',
+                'surat_masuk.id_surat = surat.id_surat',
+                $where
+            );
+
             echo view('header.php');
             echo view('menu.php');
             echo view('suratmasuk.php', $wendy);
@@ -664,6 +925,74 @@ class Home extends BaseController
             return redirect()->to('home');
         }
     }
+
+    public function download_surat($id_suratmasuk)
+    {
+        $Joyce = new Model_belajar(); // Ganti dengan model Anda
+
+        // Ambil data surat berdasarkan ID
+        $surat = $Joyce->getWhere('surat_masuk', ['id_suratmasuk' => $id_suratmasuk])->getRow();
+
+        if ($surat && !empty($surat->file)) {
+            // Perbarui status menjadi "Sudah Dibaca"
+            $Joyce->update('surat_masuk', ['status' => 'Sudah Dibaca'], ['id_suratmasuk' => $id_suratmasuk]);
+
+            // Path file
+            $filePath = WRITEPATH . 'uploads/' . $surat->file;
+
+            if (file_exists($filePath)) {
+                return $this->response->download($filePath, null); // Mengunduh file
+            } else {
+                return redirect()->back()->with('error', 'File tidak ditemukan.');
+            }
+        } else {
+            return redirect()->back()->with('error', 'Data surat tidak valid atau file tidak tersedia.');
+        }
+    }
+    public function updateStatusSuratMasuk($id_suratmasuk)
+    {
+        // Mengecek apakah user sudah login dan session nama sesuai penerima
+        if (session()->get('nama')) {
+            // Load the SuratMasukModel
+            $model = new \App\Models\SuratMasukModel();
+
+            // Call the updateStatus method to update the 'status'
+            if ($model->updateStatus($id_suratmasuk, 'Sudah Dibaca')) {
+                // Redirect back to the Surat Masuk page if update is successful
+                return redirect()->to(base_url('home/suratmasuk'));
+            } else {
+                // Handle update failure
+                return redirect()->to(base_url('home/suratmasuk'))->with('error', 'Failed to update status');
+            }
+        } else {
+            // If session is not valid, redirect to home
+            return redirect()->to(base_url('home'));
+        }
+    }
+
+    public function updateStatusSuratKeluar($id_suratkeluar)
+    {
+        // Mengecek apakah user sudah login dan session nama sesuai penerima
+        if (session()->get('nama')) {
+            // Load the SuratKeluarModel
+            $model = new \App\Models\SuratKeluarModel();
+
+            // Call the updateStatus method to update the 'status' field
+            if ($model->updateStatus($id_suratkeluar, 'Sudah Dibaca')) {
+                // Redirect back to the Surat Keluar page if update is successful
+                return redirect()->to(base_url('home/suratkeluar'));
+            } else {
+                // Handle update failure
+                return redirect()->to(base_url('home/suratkeluar'))->with('error', 'Failed to update status');
+            }
+        } else {
+            // If session is not valid, redirect to home
+            return redirect()->to(base_url('home'));
+        }
+    }
+
+
+
     public function gudanglogin()
     {
         return view('gudanglogin.php');
@@ -745,38 +1074,17 @@ class Home extends BaseController
             return redirect()->to('home');
         }
     }
-    public function simpansuratkeluar($id)
-    {
-        if (session()->get('id') > 0) {
-            $a = $this->request->getPost('id_surat');
-            $b = $this->request->getPost('jumlah');
-            $c = $this->request->getPost('tanggal');
-            $id_suratkeluar = $this->request->getPost('id');
-
-            $Joyce = new Model_belajar();
-            $wece = array('id_suratkeluar' => $id_suratkeluar);
-            $data = array(
-                "id_surat" => $a,
-                "jumlah" => $b,
-                "tanggal" => $c
-            );
-
-            $Joyce->edit('surat_keluar', $data, $wece);
-            return redirect()->to(base_url('home/suratkeluar'));
-        } else {
-            return redirect()->to('home');
-        }
-    }
     public function tambahsuratkeluar()
     {
         if (session()->get('id') > 0) {
             $Joyce = new Model_belajar();
-            $where = ('id_surat');
-            $suratList = $Joyce->tampil('surat', $where);
-            $data['surat'] = $suratList;
-            $where1 = ('id_user');
-            $userlist = $Joyce->tampil('user', $where1);
-            $data['user'] = $userlist;
+
+            // Ambil data surat
+            $data['surat'] = $Joyce->tampil('surat', 'id_surat');
+
+            // Ambil daftar karyawan
+            $data['karyawan'] = $Joyce->tampil('karyawan', 'id_karyawan');
+
             echo view('header.php');
             echo view('menu.php');
             echo view('tambahsuratkeluar.php', $data);
@@ -785,22 +1093,101 @@ class Home extends BaseController
             return redirect()->to('home');
         }
     }
-    public function simpansuratkeluar_new()
+
+
+    public function simpansuratkeluar()
     {
         if (session()->get('id') > 0) {
             $Joyce = new Model_belajar();
 
-            $data = [
-                'id_surat' => $this->request->getPost('id_surat'),
-                'id_user' => $this->request->getPost('id_user'),
-                'jumlah' => $this->request->getPost('jumlah'),
-                'tanggal' => $this->request->getPost('tanggal')
+            // Ambil data dari form
+            $id_surat = $this->request->getPost('id_surat');
+            $jumlah = $this->request->getPost('jumlah');
+            $tanggal = $this->request->getPost('tanggal');
+            $pengirim = $this->request->getPost('pengirim');
+            $status = "Belum Dibaca"; // Default status
+
+            // Ambil penerima dari form
+            $penerimaList = [
+                $this->request->getPost('penerima1'),
+                $this->request->getPost('penerima2'),
+                $this->request->getPost('penerima3'),
+                $this->request->getPost('penerima4'),
+                $this->request->getPost('penerima5'),
             ];
 
-            $Joyce->input('surat_keluar', $data);
-            $Joyce->input('surat_masuk', $data);
+            // Filter penerima yang tidak kosong
+            $penerimaList = array_filter($penerimaList, function ($penerima) {
+                return !empty($penerima);
+            });
+
+            // Handling file upload
+            $file = $this->request->getFile('file'); // Ambil file dari input
+            $fileName = '';
+
+            if ($file && $file->isValid() && !$file->hasMoved()) {
+                $fileName = $file->getRandomName(); // Generate nama file acak
+
+                // Tentukan path folder upload
+                $uploadPath = ROOTPATH . 'public/uploads/';
+
+                // Pastikan folder uploads ada
+                if (!is_dir($uploadPath)) {
+                    mkdir($uploadPath, 0777, true); // Buat folder jika belum ada
+                }
+
+                // Simpan file ke folder public/uploads
+                $file->move($uploadPath, $fileName);
+            }
+
+            // Iterasi melalui setiap penerima dan simpan data ke database
+            foreach ($penerimaList as $penerima) {
+                // Siapkan data untuk disimpan
+                $data = [
+                    "id_surat" => $id_surat,
+                    "pengirim" => $pengirim,
+                    "penerima" => $penerima,
+                    "jumlah" => $jumlah,
+                    "tanggal" => $tanggal,
+                    "file" => $fileName, // Nama file yang sudah diunggah
+                    "status" => $status,
+                ];
+
+                // Simpan ke database
+                $Joyce->input('surat_keluar', $data);
+            }
+
+            // Redirect ke halaman surat masuk dengan pesan sukses
+            return redirect()->to(base_url('home/suratkeluar'))->with('success', 'Surat keluar berhasil disimpan.');
+        } else {
+            return redirect()->to('home');
+        }
+    }
+
+
+    public function update_suratkeluar($id)
+    {
+        if (session()->get('id') > 0) {
+            $Joyce = new Model_belajar();
+            $data = [
+                'id_surat' => $this->request->getPost('id_surat'),
+                'jumlah' => $this->request->getPost('jumlah'),
+                'tanggal' => $this->request->getPost('tanggal'),
+            ];
+
+            $Joyce->edit('surat_keluar', $data, ['id_suratkeluar' => $id]);
             return redirect()->to(base_url('home/suratkeluar'));
-            // print_r($data);
+        } else {
+            return redirect()->to('home');
+        }
+    }
+
+    public function hapus_suratkeluar($id)
+    {
+        if (session()->get('id') > 0) {
+            $Joyce = new Model_belajar();
+            $Joyce->hapus('surat_keluar', ['id_suratkeluar' => $id]);
+            return redirect()->to(base_url('home/suratkeluar'));
         } else {
             return redirect()->to('home');
         }
@@ -910,8 +1297,13 @@ class Home extends BaseController
     {
         if (session()->get('id') > 0) {
             $Joyce = new Model_belajar();
-            $where = ('id_surat');
-            $data['surat'] = $Joyce->tampil('surat', $where);
+
+            // Ambil data surat
+            $data['surat'] = $Joyce->tampil('surat', 'id_surat');
+
+            // Ambil daftar karyawan
+            $data['karyawan'] = $Joyce->tampil('karyawan', 'id_karyawan');
+
             echo view('header.php');
             echo view('menu.php');
             echo view('tambahsuratmasuk.php', $data);
@@ -921,28 +1313,76 @@ class Home extends BaseController
         }
     }
 
+
     public function simpansuratmasuk()
     {
         if (session()->get('id') > 0) {
-            $a = $this->request->getPost('id_surat');
-            $b = $this->request->getPost('jumlah');
-            $c = $this->request->getPost('tanggal');
-            $id_suratkeluar = $this->request->getPost('id');
-
             $Joyce = new Model_belajar();
-            $data = array(
-                "id_surat" => $a,
-                "jumlah" => $b,
-                "tanggal" => $c
-            );
-            print_r($data);
 
-            $Joyce->input('surat_masuk', $data);
-            return redirect()->to(base_url('home/suratmasuk'));
+            // Ambil data dari form
+            $id_surat = $this->request->getPost('id_surat');
+            $jumlah = $this->request->getPost('jumlah');
+            $tanggal = $this->request->getPost('tanggal');
+            $pengirim = $this->request->getPost('pengirim');
+            $status = "Belum Dibaca"; // Default status
+
+            // Ambil penerima dari form
+            $penerimaList = [
+                $this->request->getPost('penerima1'),
+                $this->request->getPost('penerima2'),
+                $this->request->getPost('penerima3'),
+                $this->request->getPost('penerima4'),
+                $this->request->getPost('penerima5'),
+            ];
+
+            // Filter penerima yang tidak kosong
+            $penerimaList = array_filter($penerimaList, function ($penerima) {
+                return !empty($penerima);
+            });
+
+            // Handling file upload
+            $file = $this->request->getFile('file'); // Ambil file dari input
+            $fileName = '';
+
+            if ($file && $file->isValid() && !$file->hasMoved()) {
+                $fileName = $file->getRandomName(); // Generate nama file acak
+
+                // Tentukan path folder upload
+                $uploadPath = ROOTPATH . 'public/uploads/';
+
+                // Pastikan folder uploads ada
+                if (!is_dir($uploadPath)) {
+                    mkdir($uploadPath, 0777, true); // Buat folder jika belum ada
+                }
+
+                // Simpan file ke folder public/uploads
+                $file->move($uploadPath, $fileName);
+            }
+
+            // Iterasi melalui setiap penerima dan simpan data ke database
+            foreach ($penerimaList as $penerima) {
+                // Siapkan data untuk disimpan
+                $data = [
+                    "id_surat" => $id_surat,
+                    "pengirim" => $pengirim,
+                    "penerima" => $penerima,
+                    "jumlah" => $jumlah,
+                    "tanggal" => $tanggal,
+                    "file" => $fileName, // Nama file yang sudah diunggah
+                    "status" => $status,
+                ];
+
+                // Simpan ke database
+                $Joyce->input('surat_masuk', $data);
+            }
+
+            // Redirect ke halaman surat masuk dengan pesan sukses
+            return redirect()->to(base_url('home/suratmasuk'))->with('success', 'Surat masuk berhasil disimpan.');
         } else {
             return redirect()->to('home');
         }
     }
+
 
     public function update_suratmasuk($id)
     {
@@ -971,7 +1411,7 @@ class Home extends BaseController
             return redirect()->to('home');
         }
     }
-    protected $Model_belajar;
+
 
     public function __construct()
     {
@@ -1682,5 +2122,12 @@ class Home extends BaseController
         } else {
             return redirect()->to('home');
         }
+    }
+    public function usersprofile()
+    {
+        echo view('header.php');
+        echo view('menu.php');
+        echo view('users-profile.php');
+        echo view('footer.php');
     }
 }
